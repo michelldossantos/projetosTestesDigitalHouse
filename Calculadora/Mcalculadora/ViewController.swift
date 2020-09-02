@@ -17,7 +17,7 @@ var resultado : String?
 class ViewController: UIViewController {
    
     @IBOutlet weak var labelResultado: UITextField!
-    
+   //Criando os botões
     @IBAction func btn0(_ sender: Any) {
         valores(numero: "0")
     }
