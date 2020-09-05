@@ -69,20 +69,31 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // Criando Botões para operações
+    
     @IBAction func btnSoma(_ sender: Any) {
-        operador = "+"
+        if (valor1 != ""){ // Verifica se o valor1 já possui algum valor
+             operador = "+"
+        }
+       
     }
     
     @IBAction func btnMenos(_ sender: Any) {
-        operador = "-"
+         if (valor1 != ""){
+                    operador = "-"
+               }
     }
     @IBAction func btnX(_ sender: Any) {
-        operador = "*"
+        if (valor1 != ""){
+             operador = "*"
+        }
     }
     
     @IBAction func btnDiv(_ sender: Any) {
         
-        operador = "/"
+        if (valor1 != ""){
+             operador = "/"
+        }
     }
     
     
@@ -106,7 +117,7 @@ class ViewController: UIViewController {
         }
         
     }
-    
+    // Faz o calculo conforme o parametro recebido
     func operacoes(operado : String){
         
             if (operado == "+"){
@@ -123,7 +134,9 @@ class ViewController: UIViewController {
                 
             }
             
-            labelResultado.text = resultado
+            labelResultado.text = resultado // faz a impressão do resultado
+        
+            // Zera operador e valores para um novo cálculo
             operador = nil
             valor1 = ""
             valor2 = ""
