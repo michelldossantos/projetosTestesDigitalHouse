@@ -20,7 +20,7 @@ class Mamifero{
     
 }
 
-class Cachorro: Mamifero { // herda de mamífero 
+class Cachorro: Mamifero { // herda de mamífero
    
     
     //Faz: Methods, Funcs, Action
