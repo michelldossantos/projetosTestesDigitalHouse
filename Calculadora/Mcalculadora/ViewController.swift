@@ -94,7 +94,10 @@ class ViewController: UIViewController {
         if (valor1 != ""){
              operador = "/"
         }
+        
     }
+    
+
     
     
     @IBAction func btnIgual(_ sender: Any) {
@@ -143,6 +146,8 @@ class ViewController: UIViewController {
         
  
     }
+    
+    
 
 
 }
