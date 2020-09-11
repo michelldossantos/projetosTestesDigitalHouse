@@ -50,7 +50,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btnDiv:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbI-fb-laj"/>
+                                                    <action selector="btnSoma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0uQ-j7-bkK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -71,7 +71,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jda-nO-PqY"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBh-Kx-nUX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tJ-rr-E4C">
@@ -87,7 +87,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0aE-P3-Jn3"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cJ-55-Hx5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCF-2o-zVH">
@@ -103,7 +103,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SA9-3f-hzt"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="utN-TI-22L"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9N-pb-Gr4">
@@ -119,7 +119,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btnX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fw9-01-tM5"/>
+                                                    <action selector="btnSoma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6eK-pH-zKv"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -145,7 +145,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vxG-3r-rE9"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JUc-oV-vhL"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPO-sU-uQf">
@@ -161,7 +161,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WSL-oh-09h"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q3r-QZ-S90"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5p-sh-siM">
@@ -177,7 +177,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msZ-Lc-7iu"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhn-MW-jYB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U67-22-ZCB">
@@ -193,7 +193,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btnMenos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6U7-wG-xz0"/>
+                                                    <action selector="btnSoma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AgN-EB-7EB"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -214,7 +214,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CyR-d2-sDr"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wzP-CL-aYE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mja-1h-AHA">
@@ -230,7 +230,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ble-gv-NEC"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLb-oM-vmp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5I-k3-eGh">
@@ -246,7 +246,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="btn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iIj-xr-jY5"/>
+                                                    <action selector="btn0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OZF-Pd-ifx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNg-ya-eak">

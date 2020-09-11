@@ -17,51 +17,17 @@ var resultado : String?
 class ViewController: UIViewController {
    
     @IBOutlet weak var labelResultado: UITextField!
-   //Criando os botões
-    @IBAction func btn0(_ sender: Any) {
-        valores(numero: "0")
-    }
+   //Criando os botões númericos
     
-    @IBAction func btn1(_ sender: Any) {
-        valores(numero: "1")
+    
+    @IBAction func btn0(_ sender: UIButton) {
+        efeitoclick(sender: sender)
+        let botaoClicado = sender.currentTitle
+        valores(numero: botaoClicado!)
         
     }
     
-    @IBAction func btn2(_ sender: Any) {
-        valores(numero: "2")
-    }
     
-    @IBAction func btn3(_ sender: Any) {
-        valores(numero: "3")
-    }
-    
-    
-    @IBAction func btn4(_ sender: Any) {
-        valores(numero: "4")
-    }
-    
-    
-    @IBAction func btn5(_ sender: Any) {
-        valores(numero: "5")
-    }
-    
-    
-    @IBAction func btn6(_ sender: Any) {
-        valores(numero: "6")
-    }
-    
-    @IBAction func btn7(_ sender: Any) {
-        valores(numero: "7")
-    }
-    
-    
-    @IBAction func btn8(_ sender: Any) {
-        valores(numero: "8")
-    }
-    
-    @IBAction func btn9(_ sender: Any) {
-        valores(numero: "9")
-    }
     
     
     override func viewDidLoad() {
@@ -71,34 +37,13 @@ class ViewController: UIViewController {
     
     // Criando Botões para operações
     
-    @IBAction func btnSoma(_ sender: Any) {
-        if (valor1 != ""){ // Verifica se o valor1 já possui algum valor
-             operador = "+"
-        }
+    @IBAction func btnSoma(_ sender: UIButton) {
+        efeitoclick(sender: sender)
+        operador = operador2(sender: sender)
        
     }
     
-    @IBAction func btnMenos(_ sender: Any) {
-         if (valor1 != ""){
-                    operador = "-"
-               }
-    }
-    @IBAction func btnX(_ sender: Any) {
-        if (valor1 != ""){
-             operador = "*"
-        }
-    }
-    
-    @IBAction func btnDiv(_ sender: Any) {
-        
-        if (valor1 != ""){
-             operador = "/"
-        }
-        
-    }
-    
-
-    
+   
     
     @IBAction func btnIgual(_ sender: Any) {
         if operador != nil && valor2 != "" && valor1 != "" {
@@ -147,7 +92,32 @@ class ViewController: UIViewController {
  
     }
     
+    func efeitoclick (sender: UIControl ){
+        
+        sender.alpha = 0.5
+
+               DispatchQueue.main.asyncAfter(deadline: .now() + 0.3 ) {
+                   sender.alpha = 1.0
+               }
+    }
     
+    func operador2(sender: UIButton) -> String{ // retornar o operador conforme for recebido no titulo do botao
+        if (valor1 != ""){
+            switch sender.currentTitle {
+            case "+":
+                return "+"
+            case "-":
+                return "-"
+            case "%":
+                return "/"
+            case "*":
+            return "*"
+            default:
+                print("ERROR")
+            }
+        }
+        return ""
+    }
 
 
 }
