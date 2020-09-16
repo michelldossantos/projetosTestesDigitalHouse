@@ -3,7 +3,16 @@
 Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da Digital House
 
 
-
+### Conteúdo das Aulas
+  - Aula 01: Apresentação do curso
+  - [Aula 02](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2002%2026:08): Introdução ao Swift
+  - [Aula 03](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2003%2028:08): Variáveis/Constantes , Funções , If/else , Array, Dictionaries , Loops
+  - [Aula 04](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2004%2031:08): Optional, Dojo 01(Calculadora) , IbOutlet
+  - [Aula 05](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2005%2002:09): Git/GitHub
+  - [Aula 06](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2006%2004:09): Introdução a OOP (Subdivisões, Classes, Objetos e Herenças)
+  - [Aula 07](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2007%2009:09): Polimorfismo
+  - [Aula 08](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2008%2011:09): Encapsulamento / Protocol
+  - [Aula 09](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2009%2014:09): Delegate
 
 
 ### Aulas com desafios
