@@ -9,7 +9,7 @@
 import UIKit
 
 class Usuario{
-    var senha: String
+   private var senha: String
     var email: String
     
     init(senha: String, email: String) {
@@ -17,6 +17,9 @@ class Usuario{
         self.email = email
     }
     
+    func getpassword () -> String{
+        return senha
+    }
 }
 
 
@@ -110,7 +113,7 @@ class ViewController: UIViewController {
         for usuario in arrayUsuario{ // for em todos os usuarios contido no array
             
             // se os dados dos texfild for igual aos que estão salvos no array
-            if textFieldEmail.text == usuario.email && textFieldSenha.text == usuario.senha{
+            if textFieldEmail.text == usuario.email && textFieldSenha.text == usuario.getpassword(){
            
             return true // retorna true para confirmar sucesso no login
             }
