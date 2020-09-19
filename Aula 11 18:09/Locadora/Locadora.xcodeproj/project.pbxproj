@@ -13,7 +13,12 @@
 		D0D53BEC2515007400A53936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D53BEA2515007400A53936 /* Main.storyboard */; };
 		D0D53BEE2515007700A53936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D53BED2515007700A53936 /* Assets.xcassets */; };
 		D0D53BF12515007700A53936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D53BEF2515007700A53936 /* LaunchScreen.storyboard */; };
-		D0D53BF9251501FF00A53936 /* Locadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53BF8251501FF00A53936 /* Locadora.swift */; };
+		D0D53BFB2515A32400A53936 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53BFA2515A32400A53936 /* Produto.swift */; };
+		D0D53BFD2515A57E00A53936 /* Dvd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53BFC2515A57E00A53936 /* Dvd.swift */; };
+		D0D53BFF2515A86C00A53936 /* protocolFazerLocacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53BFE2515A86C00A53936 /* protocolFazerLocacao.swift */; };
+		D0D53C012515B32400A53936 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C002515B32400A53936 /* Carro.swift */; };
+		D0D53C062515B4F600A53936 /* Cd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C052515B4F600A53936 /* Cd.swift */; };
+		D0D53C082515B58300A53936 /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D53C072515B58300A53936 /* Livro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +30,12 @@
 		D0D53BED2515007700A53936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D53BF02515007700A53936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D53BF22515007700A53936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0D53BF8251501FF00A53936 /* Locadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locadora.swift; sourceTree = "<group>"; };
+		D0D53BFA2515A32400A53936 /* Produto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		D0D53BFC2515A57E00A53936 /* Dvd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dvd.swift; sourceTree = "<group>"; };
+		D0D53BFE2515A86C00A53936 /* protocolFazerLocacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocolFazerLocacao.swift; sourceTree = "<group>"; };
+		D0D53C002515B32400A53936 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		D0D53C052515B4F600A53936 /* Cd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cd.swift; sourceTree = "<group>"; };
+		D0D53C072515B58300A53936 /* Livro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +71,34 @@
 				D0D53BE42515007400A53936 /* AppDelegate.swift */,
 				D0D53BE62515007400A53936 /* SceneDelegate.swift */,
 				D0D53BE82515007400A53936 /* ViewController.swift */,
+				D0D53C042515B47D00A53936 /* Class */,
+				D0D53C032515B45E00A53936 /* protocol */,
 				D0D53BEA2515007400A53936 /* Main.storyboard */,
 				D0D53BED2515007700A53936 /* Assets.xcassets */,
 				D0D53BEF2515007700A53936 /* LaunchScreen.storyboard */,
 				D0D53BF22515007700A53936 /* Info.plist */,
-				D0D53BF8251501FF00A53936 /* Locadora.swift */,
 			);
 			path = Locadora;
+			sourceTree = "<group>";
+		};
+		D0D53C032515B45E00A53936 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D0D53BFE2515A86C00A53936 /* protocolFazerLocacao.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		D0D53C042515B47D00A53936 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D0D53BFA2515A32400A53936 /* Produto.swift */,
+				D0D53BFC2515A57E00A53936 /* Dvd.swift */,
+				D0D53C002515B32400A53936 /* Carro.swift */,
+				D0D53C052515B4F600A53936 /* Cd.swift */,
+				D0D53C072515B58300A53936 /* Livro.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +174,12 @@
 			files = (
 				D0D53BE92515007400A53936 /* ViewController.swift in Sources */,
 				D0D53BE52515007400A53936 /* AppDelegate.swift in Sources */,
-				D0D53BF9251501FF00A53936 /* Locadora.swift in Sources */,
+				D0D53C062515B4F600A53936 /* Cd.swift in Sources */,
+				D0D53BFF2515A86C00A53936 /* protocolFazerLocacao.swift in Sources */,
+				D0D53C082515B58300A53936 /* Livro.swift in Sources */,
+				D0D53BFD2515A57E00A53936 /* Dvd.swift in Sources */,
+				D0D53C012515B32400A53936 /* Carro.swift in Sources */,
+				D0D53BFB2515A32400A53936 /* Produto.swift in Sources */,
 				D0D53BE72515007400A53936 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

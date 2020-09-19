@@ -1,5 +1,5 @@
 //
-//  Locadora.swift
+//  Produto.swift
 //  Locadora
 //
 //  Created by Michel dos Santos on 18/09/20.
@@ -27,24 +27,14 @@
 //* Nesse exercício use POO, aplique Herança e Polimorfismo.
 
 import Foundation
-import UIKit
 
-//class Locadora {
-//   var dias: Int
-//    
-//    init() {
-//        
-//    }
-//    
-//    func fazerLocação(dias: Int) {
-//        print("Devolver em \(dias)dias.")
-//    }
-//        
-//}
-
-
-
-
-
-
+class Produto{
+    var codigo: Int
+    var nome: String
     
+    init(codigo: Int, nome: String) {
+        self.nome = nome
+        self.codigo = codigo
+    }
+    
+}
