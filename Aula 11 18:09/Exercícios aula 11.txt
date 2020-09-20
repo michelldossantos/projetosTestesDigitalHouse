@@ -1,4 +1,4 @@
-Exercício 1:
+Exercício 1:(SearchClasses)
 
 Crie um app que...
 
@@ -16,7 +16,7 @@ Deve haver uma label com a lista, quando o usuário pesquisar por outro termo, d
 
 -----------------
 
-Exercício 2:
+Exercício 2:(Calculadora)
 
 Crie um app que...
 
@@ -49,7 +49,7 @@ Não deve haver prints na classe da calculadora.
 
 -----------------
 
-Exercício 3:
+Exercício 3: (Locadora)
 
 Crie um app de locadora...
 
@@ -71,7 +71,7 @@ O Livro deve avisar ao usuário que deve devolver em 15 dias.
 
 ------------------
 
-Exercício 4:
+Exercício 4:(hipodromo)
 
 Um hipódromo quer implementar um sistema para notificar o resultado das corridas a todos os interessados. 
 É simples: qualquer interessado no resultado pode assinar o sistema e ser notificado. Quando termina uma corrida, o sistema envia o resultado a todos os assinantes.
@@ -84,7 +84,7 @@ Use protocolos para resolver.
 
 ------------------
 
-Exercício 5:
+Exercício 5: (MonroeStreetJournal)
 
 Para aumentar as vendas, a empresa MonroeStreetJournal quer implementar um novo serviço de assinaturas do jornal DigitalNews.
 O jornal pode ser assinado por pessoas ou empresas. Para as pessoas, precisamos modelar: nome, RG e o endereço de entrega do jornal. 
