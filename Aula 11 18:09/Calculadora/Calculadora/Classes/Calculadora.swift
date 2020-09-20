@@ -10,6 +10,8 @@ import Foundation
 class Calculadora{
     private var resposta: Double = 0
     
+    //MARK: Operações
+    
     func somar(valor1: Double, valor2: Double?) -> Double{
         if let numero = valor2 {
             resposta =  valor1 + numero
@@ -62,6 +64,7 @@ class Calculadora{
         }
     }
     
+    //MARK: Get
     func getResposta() -> Double {
         return resposta
     }

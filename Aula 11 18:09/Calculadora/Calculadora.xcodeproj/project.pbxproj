@@ -39,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0C6D6662516FA750050D672 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0D53BD62514F4D200A53936 /* Calculadora.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D0D53BB62514F43B00A53936 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +66,7 @@
 		D0D53BC12514F43B00A53936 /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
+				D0C6D6662516FA750050D672 /* Classes */,
 				D0D53BC22514F43B00A53936 /* AppDelegate.swift */,
 				D0D53BC42514F43B00A53936 /* SceneDelegate.swift */,
 				D0D53BC62514F43B00A53936 /* ViewController.swift */,
@@ -65,7 +74,6 @@
 				D0D53BCB2514F43E00A53936 /* Assets.xcassets */,
 				D0D53BCD2514F43E00A53936 /* LaunchScreen.storyboard */,
 				D0D53BD02514F43E00A53936 /* Info.plist */,
-				D0D53BD62514F4D200A53936 /* Calculadora.swift */,
 			);
 			path = Calculadora;
 			sourceTree = "<group>";

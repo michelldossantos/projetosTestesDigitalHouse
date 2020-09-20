@@ -9,28 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         let conta = Calculadora()
-        var resultadoSoma = conta.somar(numeroUm: 5, numeroDois: 3)
-        var resultadoDiminuir = conta.subtrair(numeroUm: 5, numeroDois: 3)
-        var resultadoDividir = conta.dividir(numeroUm: 100, numeroDois: 5)
-        var resultadoMultiplicar = conta.multiplicar(numeroUm: 5, numeroDois: 3)
-        print(resultadoSoma)
-        print(resultadoDiminuir)
-        
-        print(resultadoDividir)
-        print(resultadoMultiplicar)
-        
+        // OBS: Se tiver apenas um parâmetro retorna apenas o valor do primeiro parâmetro
+        //  Se tiver apenas um parâmetro mas já ter calculos antes , usa o resultado anterior como parâmetro
+        // Se tiver os dois parâmetros faz o calculo normal
+        conta.somar(valor1: 1, valor2: 1) // 1+1 = 2
+        conta.dividir(valor1: 1, valor2: nil) // Usa o valor de cima, 2/1= 2
+        conta.multiplicar(valor1: 5, valor2: 5) // 5*5=25
+        conta.subtrair(valor1: 10, valor2: nil) // usa resultado de cima, 25 - 10 = 15
+        print(conta.getResposta())
     }
     
     
-
     
     
-
-
+    
+    
+    
 }
 
