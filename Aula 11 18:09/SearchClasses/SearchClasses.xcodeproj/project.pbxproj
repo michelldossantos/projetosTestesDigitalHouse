@@ -51,6 +51,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0C6D5FA251653730050D672 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0D53BA82514E90600A53936 /* classAviao.swift */,
+				D0D53BAA2514E92900A53936 /* classPessoaFisica.swift */,
+				D0D53BAC2514E93C00A53936 /* classPessoaJuridica.swift */,
+				D0D53BAE2514E94D00A53936 /* classPessoa.swift */,
+				D0D53BB02514E97100A53936 /* classCachorro.swift */,
+				D0D53BB22514E98700A53936 /* classCaneta.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		D0C6D5FD2516547F0050D672 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D0D53BB42514ED0A00A53936 /* FormatadorProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
 		D0D53B882514E8E300A53936 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +91,8 @@
 		D0D53B932514E8E300A53936 /* SearchClasses */ = {
 			isa = PBXGroup;
 			children = (
+				D0C6D5FA251653730050D672 /* classes */,
+				D0C6D5FD2516547F0050D672 /* protocol */,
 				D0D53B942514E8E300A53936 /* AppDelegate.swift */,
 				D0D53B962514E8E300A53936 /* SceneDelegate.swift */,
 				D0D53B982514E8E300A53936 /* ViewController.swift */,
@@ -77,13 +100,6 @@
 				D0D53B9D2514E8E900A53936 /* Assets.xcassets */,
 				D0D53B9F2514E8E900A53936 /* LaunchScreen.storyboard */,
 				D0D53BA22514E8E900A53936 /* Info.plist */,
-				D0D53BA82514E90600A53936 /* classAviao.swift */,
-				D0D53BAA2514E92900A53936 /* classPessoaFisica.swift */,
-				D0D53BAC2514E93C00A53936 /* classPessoaJuridica.swift */,
-				D0D53BAE2514E94D00A53936 /* classPessoa.swift */,
-				D0D53BB02514E97100A53936 /* classCachorro.swift */,
-				D0D53BB22514E98700A53936 /* classCaneta.swift */,
-				D0D53BB42514ED0A00A53936 /* FormatadorProtocol.swift */,
 			);
 			path = SearchClasses;
 			sourceTree = "<group>";

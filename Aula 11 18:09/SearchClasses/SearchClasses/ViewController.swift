@@ -30,6 +30,7 @@ class ViewController: UIViewController {
             
     }
     
+    
     func filtrar(textoPesquisa: String){
         var arrayFiltrado = [FormatadorProtocol]()
         for item in arrayItens{
