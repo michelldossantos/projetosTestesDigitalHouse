@@ -17,7 +17,7 @@ class MyViewOneViewController: UIViewController {
     
     @IBAction func actionMyViewOnePushed(_ sender: Any) {
         
-        if let viewOnePushed = UIStoryboard(name: "MyViewOnePushed", bundle: nil).instantiateInitialViewController() as? MyViewOnePushed{
+        if let viewOnePushed = UIStoryboard(name: "MyViewOnePushed", bundle: nil).instantiateInitialViewController() as? myViewNavigation{
             navigationController?.pushViewController(viewOnePushed, animated: true)
             
         }

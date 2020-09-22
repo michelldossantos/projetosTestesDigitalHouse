@@ -1,5 +1,5 @@
 //
-//  MyViewOnePushed.swift
+//  MyViewThreeModalViewController.swift
 //  screens
 //
 //  Created by Michel dos Santos on 21/09/20.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class MyViewOnePushed: UIViewController {
+class MyViewThreeModalViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "OnePushed"
+
         // Do any additional setup after loading the view.
     }
     

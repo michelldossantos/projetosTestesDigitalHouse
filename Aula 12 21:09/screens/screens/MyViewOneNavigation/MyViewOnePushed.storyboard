@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--My View One Pushed-->
+        <!--My View Navigation-->
         <scene sceneID="clO-Eu-TbW">
             <objects>
-                <viewController id="eQm-ed-GcM" customClass="MyViewOnePushed" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eQm-ed-GcM" customClass="myViewNavigation" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QAZ-Nz-Qs1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -19,7 +19,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPt-Kc-P8v">
                                 <rect key="frame" x="67" y="344" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="One Model"/>
+                                <state key="normal" title="One Modal"/>
                                 <connections>
                                     <action selector="ActionMyViewOneModel:" destination="Ikh-51-lgG" eventType="touchUpInside" id="kpr-PQ-gUX"/>
                                 </connections>

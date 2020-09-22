@@ -17,8 +17,20 @@
 		D0AC21792518E96000CDDDA7 /* MyViewOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21782518E96000CDDDA7 /* MyViewOne.storyboard */; };
 		D0AC217D2518E9C200CDDDA7 /* MyViewOneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC217C2518E9C200CDDDA7 /* MyViewOneModel.swift */; };
 		D0AC21812518E9E200CDDDA7 /* MyViewOnelModel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21802518E9E200CDDDA7 /* MyViewOnelModel.storyboard */; };
-		D0AC21852518EA4900CDDDA7 /* MyViewOnePushed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC21842518EA4900CDDDA7 /* MyViewOnePushed.swift */; };
+		D0AC21852518EA4900CDDDA7 /* myViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC21842518EA4900CDDDA7 /* myViewNavigation.swift */; };
 		D0AC21892518EA6000CDDDA7 /* MyViewOnePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21882518EA6000CDDDA7 /* MyViewOnePushed.storyboard */; };
+		D0AC2194251989BC00CDDDA7 /* MyViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC2193251989BC00CDDDA7 /* MyViewTwoViewController.swift */; };
+		D0AC2197251989CE00CDDDA7 /* MyViewTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC2196251989CE00CDDDA7 /* MyViewTwo.storyboard */; };
+		D0AC219B25198C7A00CDDDA7 /* MyViewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC219A25198C7A00CDDDA7 /* MyViewTwoModalViewController.swift */; };
+		D0AC21A125198CA300CDDDA7 /* MyViewTwoModel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21A025198CA300CDDDA7 /* MyViewTwoModel.storyboard */; };
+		D0AC21AC251991E600CDDDA7 /* myViewTwoNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC21AB251991E600CDDDA7 /* myViewTwoNavigationViewController.swift */; };
+		D0AC21B0251992BC00CDDDA7 /* myViewTwoNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21AF251992BC00CDDDA7 /* myViewTwoNavigation.storyboard */; };
+		D0AC21B62519976E00CDDDA7 /* MyViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC21B52519976E00CDDDA7 /* MyViewThreeViewController.swift */; };
+		D0AC21BA2519977A00CDDDA7 /* MyViewThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21B92519977A00CDDDA7 /* MyViewThree.storyboard */; };
+		D0AC21BF251997D600CDDDA7 /* MyViewThreeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC21BE251997D600CDDDA7 /* MyViewThreeModalViewController.swift */; };
+		D0AC21C3251997E100CDDDA7 /* MyViewThreeModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21C2251997E100CDDDA7 /* MyViewThreeModal.storyboard */; };
+		D0AC21C62519980B00CDDDA7 /* MyViewThreeNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC21C52519980B00CDDDA7 /* MyViewThreeNavigationViewController.swift */; };
+		D0AC21C92519981500CDDDA7 /* MyViewThreeNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0AC21C82519981500CDDDA7 /* MyViewThreeNavigation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +46,20 @@
 		D0AC21782518E96000CDDDA7 /* MyViewOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOne.storyboard; sourceTree = "<group>"; };
 		D0AC217C2518E9C200CDDDA7 /* MyViewOneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneModel.swift; sourceTree = "<group>"; };
 		D0AC21802518E9E200CDDDA7 /* MyViewOnelModel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOnelModel.storyboard; sourceTree = "<group>"; };
-		D0AC21842518EA4900CDDDA7 /* MyViewOnePushed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOnePushed.swift; sourceTree = "<group>"; };
+		D0AC21842518EA4900CDDDA7 /* myViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewNavigation.swift; sourceTree = "<group>"; };
 		D0AC21882518EA6000CDDDA7 /* MyViewOnePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOnePushed.storyboard; sourceTree = "<group>"; };
+		D0AC2193251989BC00CDDDA7 /* MyViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoViewController.swift; sourceTree = "<group>"; };
+		D0AC2196251989CE00CDDDA7 /* MyViewTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwo.storyboard; sourceTree = "<group>"; };
+		D0AC219A25198C7A00CDDDA7 /* MyViewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoModalViewController.swift; sourceTree = "<group>"; };
+		D0AC21A025198CA300CDDDA7 /* MyViewTwoModel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModel.storyboard; sourceTree = "<group>"; };
+		D0AC21AB251991E600CDDDA7 /* myViewTwoNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewTwoNavigationViewController.swift; sourceTree = "<group>"; };
+		D0AC21AF251992BC00CDDDA7 /* myViewTwoNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = myViewTwoNavigation.storyboard; sourceTree = "<group>"; };
+		D0AC21B52519976E00CDDDA7 /* MyViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeViewController.swift; sourceTree = "<group>"; };
+		D0AC21B92519977A00CDDDA7 /* MyViewThree.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThree.storyboard; sourceTree = "<group>"; };
+		D0AC21BE251997D600CDDDA7 /* MyViewThreeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeModalViewController.swift; sourceTree = "<group>"; };
+		D0AC21C2251997E100CDDDA7 /* MyViewThreeModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeModal.storyboard; sourceTree = "<group>"; };
+		D0AC21C52519980B00CDDDA7 /* MyViewThreeNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeNavigationViewController.swift; sourceTree = "<group>"; };
+		D0AC21C82519981500CDDDA7 /* MyViewThreeNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeNavigation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +92,18 @@
 		D0AC215A2518E2BB00CDDDA7 /* screens */ = {
 			isa = PBXGroup;
 			children = (
-				D0AC21832518EA1800CDDDA7 /* MyViewOnePushed */,
-				D0AC217B2518E99300CDDDA7 /* MyViewOneModel */,
+				D0AC21702518E2EE00CDDDA7 /* main */,
 				D0AC21722518E83F00CDDDA7 /* MyViewOne */,
+				D0AC217B2518E99300CDDDA7 /* MyViewOneModal */,
+				D0AC21832518EA1800CDDDA7 /* MyViewOneNavigation */,
+				D0AC21922519897200CDDDA7 /* MyViewTwo */,
+				D0AC219925198C4800CDDDA7 /* MyViewTwoModal */,
+				D0AC21A7251990B800CDDDA7 /* MyViewTwoNavigation */,
+				D0AC21B42519973A00CDDDA7 /* MyViewThree */,
+				D0AC21BC251997A900CDDDA7 /* MyViewThreeModal */,
+				D0AC21BD251997B500CDDDA7 /* MyViewThreeNavigation */,
 				D0AC215B2518E2BB00CDDDA7 /* AppDelegate.swift */,
 				D0AC215D2518E2BB00CDDDA7 /* SceneDelegate.swift */,
-				D0AC21702518E2EE00CDDDA7 /* main */,
 				D0AC21642518E2BF00CDDDA7 /* Assets.xcassets */,
 				D0AC21692518E2BF00CDDDA7 /* Info.plist */,
 				D0AC21662518E2BF00CDDDA7 /* LaunchScreen.storyboard */,
@@ -99,22 +129,76 @@
 			path = MyViewOne;
 			sourceTree = "<group>";
 		};
-		D0AC217B2518E99300CDDDA7 /* MyViewOneModel */ = {
+		D0AC217B2518E99300CDDDA7 /* MyViewOneModal */ = {
 			isa = PBXGroup;
 			children = (
 				D0AC217C2518E9C200CDDDA7 /* MyViewOneModel.swift */,
 				D0AC21802518E9E200CDDDA7 /* MyViewOnelModel.storyboard */,
 			);
-			path = MyViewOneModel;
+			path = MyViewOneModal;
 			sourceTree = "<group>";
 		};
-		D0AC21832518EA1800CDDDA7 /* MyViewOnePushed */ = {
+		D0AC21832518EA1800CDDDA7 /* MyViewOneNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				D0AC21842518EA4900CDDDA7 /* MyViewOnePushed.swift */,
+				D0AC21842518EA4900CDDDA7 /* myViewNavigation.swift */,
 				D0AC21882518EA6000CDDDA7 /* MyViewOnePushed.storyboard */,
 			);
-			path = MyViewOnePushed;
+			path = MyViewOneNavigation;
+			sourceTree = "<group>";
+		};
+		D0AC21922519897200CDDDA7 /* MyViewTwo */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC2193251989BC00CDDDA7 /* MyViewTwoViewController.swift */,
+				D0AC2196251989CE00CDDDA7 /* MyViewTwo.storyboard */,
+			);
+			path = MyViewTwo;
+			sourceTree = "<group>";
+		};
+		D0AC219925198C4800CDDDA7 /* MyViewTwoModal */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC219A25198C7A00CDDDA7 /* MyViewTwoModalViewController.swift */,
+				D0AC21A025198CA300CDDDA7 /* MyViewTwoModel.storyboard */,
+			);
+			path = MyViewTwoModal;
+			sourceTree = "<group>";
+		};
+		D0AC21A7251990B800CDDDA7 /* MyViewTwoNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC21AB251991E600CDDDA7 /* myViewTwoNavigationViewController.swift */,
+				D0AC21AF251992BC00CDDDA7 /* myViewTwoNavigation.storyboard */,
+			);
+			path = MyViewTwoNavigation;
+			sourceTree = "<group>";
+		};
+		D0AC21B42519973A00CDDDA7 /* MyViewThree */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC21B52519976E00CDDDA7 /* MyViewThreeViewController.swift */,
+				D0AC21B92519977A00CDDDA7 /* MyViewThree.storyboard */,
+			);
+			path = MyViewThree;
+			sourceTree = "<group>";
+		};
+		D0AC21BC251997A900CDDDA7 /* MyViewThreeModal */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC21BE251997D600CDDDA7 /* MyViewThreeModalViewController.swift */,
+				D0AC21C2251997E100CDDDA7 /* MyViewThreeModal.storyboard */,
+			);
+			path = MyViewThreeModal;
+			sourceTree = "<group>";
+		};
+		D0AC21BD251997B500CDDDA7 /* MyViewThreeNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D0AC21C52519980B00CDDDA7 /* MyViewThreeNavigationViewController.swift */,
+				D0AC21C82519981500CDDDA7 /* MyViewThreeNavigation.storyboard */,
+			);
+			path = MyViewThreeNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,10 +259,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0AC21682518E2BF00CDDDA7 /* LaunchScreen.storyboard in Resources */,
+				D0AC2197251989CE00CDDDA7 /* MyViewTwo.storyboard in Resources */,
 				D0AC21652518E2BF00CDDDA7 /* Assets.xcassets in Resources */,
 				D0AC21812518E9E200CDDDA7 /* MyViewOnelModel.storyboard in Resources */,
+				D0AC21C92519981500CDDDA7 /* MyViewThreeNavigation.storyboard in Resources */,
+				D0AC21A125198CA300CDDDA7 /* MyViewTwoModel.storyboard in Resources */,
 				D0AC21792518E96000CDDDA7 /* MyViewOne.storyboard in Resources */,
+				D0AC21BA2519977A00CDDDA7 /* MyViewThree.storyboard in Resources */,
+				D0AC21C3251997E100CDDDA7 /* MyViewThreeModal.storyboard in Resources */,
 				D0AC21632518E2BB00CDDDA7 /* Main.storyboard in Resources */,
+				D0AC21B0251992BC00CDDDA7 /* myViewTwoNavigation.storyboard in Resources */,
 				D0AC21892518EA6000CDDDA7 /* MyViewOnePushed.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,10 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AC219B25198C7A00CDDDA7 /* MyViewTwoModalViewController.swift in Sources */,
+				D0AC21AC251991E600CDDDA7 /* myViewTwoNavigationViewController.swift in Sources */,
 				D0AC217D2518E9C200CDDDA7 /* MyViewOneModel.swift in Sources */,
 				D0AC21602518E2BB00CDDDA7 /* ViewController.swift in Sources */,
-				D0AC21852518EA4900CDDDA7 /* MyViewOnePushed.swift in Sources */,
+				D0AC21C62519980B00CDDDA7 /* MyViewThreeNavigationViewController.swift in Sources */,
+				D0AC21852518EA4900CDDDA7 /* myViewNavigation.swift in Sources */,
 				D0AC215C2518E2BB00CDDDA7 /* AppDelegate.swift in Sources */,
+				D0AC21B62519976E00CDDDA7 /* MyViewThreeViewController.swift in Sources */,
+				D0AC2194251989BC00CDDDA7 /* MyViewTwoViewController.swift in Sources */,
+				D0AC21BF251997D600CDDDA7 /* MyViewThreeModalViewController.swift in Sources */,
 				D0AC21752518E94300CDDDA7 /* MyViewOneViewController.swift in Sources */,
 				D0AC215E2518E2BB00CDDDA7 /* SceneDelegate.swift in Sources */,
 			);

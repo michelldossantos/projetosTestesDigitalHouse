@@ -17,11 +17,75 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2A-de-bx1">
-                                <rect key="frame" x="59" y="200" width="66" height="30"/>
+                                <rect key="frame" x="59" y="200" width="278" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View One"/>
                                 <connections>
                                     <action selector="actionMyViewOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dTQ-5r-gLN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CES-f2-fGV">
+                                <rect key="frame" x="165" y="359" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Two"/>
+                                <connections>
+                                    <action selector="buttonMyViewTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NQP-4G-zhO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-kq-5hP">
+                                <rect key="frame" x="162" y="541" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ViewThree"/>
+                                <connections>
+                                    <action selector="actionViewThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S1J-jK-j7T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vb-h6-xd1">
+                                <rect key="frame" x="142" y="225" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View One Modal"/>
+                                <connections>
+                                    <action selector="actionMyViewOneModal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dtz-fO-CoJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HY-Ar-KoF">
+                                <rect key="frame" x="127" y="247" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View One Navigation"/>
+                                <connections>
+                                    <action selector="actionMyViewOneNavigation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eZs-v7-Jxp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qf-Es-sud">
+                                <rect key="frame" x="142" y="380" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Two Modal"/>
+                                <connections>
+                                    <action selector="actionViewTwoModal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x8I-YV-QDv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvO-OM-TTF">
+                                <rect key="frame" x="128" y="397" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Two Navigation"/>
+                                <connections>
+                                    <action selector="actionViewTwoNavigation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEB-RL-qMg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7I-HY-Xcl">
+                                <rect key="frame" x="137" y="558" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Three Modal"/>
+                                <connections>
+                                    <action selector="actionViewThreeModal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PIv-vE-Zjn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWT-Xj-3Z7">
+                                <rect key="frame" x="121" y="579" width="154" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Three Navigation"/>
+                                <connections>
+                                    <action selector="actionViewThreeNavigation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgz-Jv-z3G"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731.8840579710145" y="64.955357142857139"/>
+            <point key="canvasLocation" x="730.43478260869574" y="64.955357142857139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ONd-VF-vzu">
