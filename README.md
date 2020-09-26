@@ -17,6 +17,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 11](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2011%2018:09): Exercícios (Herança, Polimorfismo, Encapsulamento, Protocol, Delegate,)
   - [Aula 12](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2012%2021:09): Transições de tela
   - [Aula 13](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2013%2023:09): SCRUM / Introdução ao projeto Integrador
+  - [Aula 14](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09): TableView
   
   
 
@@ -29,6 +30,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 08 [Desafio Loja de Carro (Encapsulamento)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2008%2011:09/lojaCarro.playground)
   - Aula 09 [Desafio Tela Login (Protocol e Delegate)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2009%2014:09/desafioLogin02)
   - Aula 10 [Desafio App Lista de Compras](https://github.com/michelldossantos/app-ListaCompras)
+  - AUla 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazEcercicioTableView)
   
 
       
