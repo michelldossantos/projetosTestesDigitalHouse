@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02A9F2A251E279500EA66CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A9F29251E279500EA66CA /* AppDelegate.swift */; };
+		D02A9F2C251E279500EA66CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A9F2B251E279500EA66CA /* SceneDelegate.swift */; };
+		D02A9F2E251E279500EA66CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A9F2D251E279500EA66CA /* ViewController.swift */; };
+		D02A9F31251E279500EA66CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F2F251E279500EA66CA /* Main.storyboard */; };
+		D02A9F33251E279800EA66CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F32251E279800EA66CA /* Assets.xcassets */; };
+		D02A9F36251E279800EA66CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F34251E279800EA66CA /* LaunchScreen.storyboard */; };
+		D02A9F3F251E2B5800EA66CA /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F3E251E2B5800EA66CA /* car.jpeg */; };
+		D02A9F44251E2C5F00EA66CA /* MarcaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A9F43251E2C5F00EA66CA /* MarcaViewController.swift */; };
+		D02A9F48251E2C7000EA66CA /* Marca.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F47251E2C7000EA66CA /* Marca.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D02A9F26251E279500EA66CA /* DesifioTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesifioTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02A9F29251E279500EA66CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D02A9F2B251E279500EA66CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D02A9F2D251E279500EA66CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D02A9F30251E279500EA66CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D02A9F32251E279800EA66CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02A9F35251E279800EA66CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D02A9F37251E279800EA66CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02A9F3E251E2B5800EA66CA /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpeg; sourceTree = "<group>"; };
+		D02A9F43251E2C5F00EA66CA /* MarcaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcaViewController.swift; sourceTree = "<group>"; };
+		D02A9F47251E2C7000EA66CA /* Marca.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Marca.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D02A9F23251E279500EA66CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02A9F1D251E279500EA66CA = {
+			isa = PBXGroup;
+			children = (
+				D02A9F28251E279500EA66CA /* DesifioTableview */,
+				D02A9F27251E279500EA66CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D02A9F27251E279500EA66CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02A9F26251E279500EA66CA /* DesifioTableview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02A9F28251E279500EA66CA /* DesifioTableview */ = {
+			isa = PBXGroup;
+			children = (
+				D02A9F42251E2C0B00EA66CA /* Marca */,
+				D02A9F29251E279500EA66CA /* AppDelegate.swift */,
+				D02A9F2B251E279500EA66CA /* SceneDelegate.swift */,
+				D02A9F2D251E279500EA66CA /* ViewController.swift */,
+				D02A9F2F251E279500EA66CA /* Main.storyboard */,
+				D02A9F32251E279800EA66CA /* Assets.xcassets */,
+				D02A9F34251E279800EA66CA /* LaunchScreen.storyboard */,
+				D02A9F37251E279800EA66CA /* Info.plist */,
+				D02A9F3E251E2B5800EA66CA /* car.jpeg */,
+			);
+			path = DesifioTableview;
+			sourceTree = "<group>";
+		};
+		D02A9F42251E2C0B00EA66CA /* Marca */ = {
+			isa = PBXGroup;
+			children = (
+				D02A9F43251E2C5F00EA66CA /* MarcaViewController.swift */,
+				D02A9F47251E2C7000EA66CA /* Marca.storyboard */,
+			);
+			path = Marca;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02A9F25251E279500EA66CA /* DesifioTableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02A9F3A251E279800EA66CA /* Build configuration list for PBXNativeTarget "DesifioTableview" */;
+			buildPhases = (
+				D02A9F22251E279500EA66CA /* Sources */,
+				D02A9F23251E279500EA66CA /* Frameworks */,
+				D02A9F24251E279500EA66CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesifioTableview;
+			productName = DesifioTableview;
+			productReference = D02A9F26251E279500EA66CA /* DesifioTableview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02A9F1E251E279500EA66CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D02A9F25251E279500EA66CA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = D02A9F21251E279500EA66CA /* Build configuration list for PBXProject "DesifioTableview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02A9F1D251E279500EA66CA;
+			productRefGroup = D02A9F27251E279500EA66CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02A9F25251E279500EA66CA /* DesifioTableview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02A9F24251E279500EA66CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02A9F36251E279800EA66CA /* LaunchScreen.storyboard in Resources */,
+				D02A9F3F251E2B5800EA66CA /* car.jpeg in Resources */,
+				D02A9F33251E279800EA66CA /* Assets.xcassets in Resources */,
+				D02A9F31251E279500EA66CA /* Main.storyboard in Resources */,
+				D02A9F48251E2C7000EA66CA /* Marca.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D02A9F22251E279500EA66CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02A9F2E251E279500EA66CA /* ViewController.swift in Sources */,
+				D02A9F2A251E279500EA66CA /* AppDelegate.swift in Sources */,
+				D02A9F2C251E279500EA66CA /* SceneDelegate.swift in Sources */,
+				D02A9F44251E2C5F00EA66CA /* MarcaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D02A9F2F251E279500EA66CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02A9F30251E279500EA66CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D02A9F34251E279800EA66CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02A9F35251E279800EA66CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D02A9F38251E279800EA66CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D02A9F39251E279800EA66CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D02A9F3B251E279800EA66CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesifioTableview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.DesifioTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D02A9F3C251E279800EA66CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesifioTableview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.DesifioTableview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D02A9F21251E279500EA66CA /* Build configuration list for PBXProject "DesifioTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02A9F38251E279800EA66CA /* Debug */,
+				D02A9F39251E279800EA66CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02A9F3A251E279800EA66CA /* Build configuration list for PBXNativeTarget "DesifioTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02A9F3B251E279800EA66CA /* Debug */,
+				D02A9F3C251E279800EA66CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D02A9F1E251E279500EA66CA /* Project object */;
+}
