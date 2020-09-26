@@ -13,6 +13,7 @@
 		D02A9F60251EC43B00EA66CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F5E251EC43B00EA66CA /* Main.storyboard */; };
 		D02A9F62251EC43F00EA66CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F61251EC43F00EA66CA /* Assets.xcassets */; };
 		D02A9F65251EC43F00EA66CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F63251EC43F00EA66CA /* LaunchScreen.storyboard */; };
+		D02A9F6E251EC66200EA66CA /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D02A9F6D251EC66200EA66CA /* download.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D02A9F61251EC43F00EA66CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02A9F64251EC43F00EA66CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02A9F66251EC43F00EA66CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02A9F6D251EC66200EA66CA /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D02A9F61251EC43F00EA66CA /* Assets.xcassets */,
 				D02A9F63251EC43F00EA66CA /* LaunchScreen.storyboard */,
 				D02A9F66251EC43F00EA66CA /* Info.plist */,
+				D02A9F6D251EC66200EA66CA /* download.jpeg */,
 			);
 			path = refazEcercicioTableView;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02A9F65251EC43F00EA66CA /* LaunchScreen.storyboard in Resources */,
+				D02A9F6E251EC66200EA66CA /* download.jpeg in Resources */,
 				D02A9F62251EC43F00EA66CA /* Assets.xcassets in Resources */,
 				D02A9F60251EC43B00EA66CA /* Main.storyboard in Resources */,
 			);
