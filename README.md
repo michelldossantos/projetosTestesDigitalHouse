@@ -18,6 +18,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 12](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2012%2021:09): Transições de tela
   - [Aula 13](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2013%2023:09): SCRUM / Introdução ao projeto Integrador
   - [Aula 14](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09): TableView
+  - [Aula 15](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09): TableView Avançado
   
   
 
@@ -30,8 +31,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 08 [Desafio Loja de Carro (Encapsulamento)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2008%2011:09/lojaCarro.playground)
   - Aula 09 [Desafio Tela Login (Protocol e Delegate)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2009%2014:09/desafioLogin02)
   - Aula 10 [Desafio App Lista de Compras](https://github.com/michelldossantos/app-ListaCompras)
-  - AUla 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazExercicioTableView)
-  
+  - Aula 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazExercicioTableView)
+  - Aula 15 [Desafio TableView Avançado](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09/desafioTableView)
 
       
 
