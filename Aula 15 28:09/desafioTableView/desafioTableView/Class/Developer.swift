@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+class Developer {
+    var nome: String
+    var profileImage: String
+    var email: String
+    
+    init(nome: String, profileImage: String, email: String) {
+        self.nome = nome
+        self.profileImage = profileImage
+        self.email = email
+    }
+}
+
