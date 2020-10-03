@@ -2,7 +2,7 @@
 - Tenha uma lista (tableView) com 15 pessoas.
 - Cada célula (linha) deve ter o nome, cargo e email de uma pessoa.
 - Quando tocar numa celula, deve abrir uma tela em modal, nessa tela deve haver um botão de fechar e um label com o nome da pessoa.
-###02 - Criar um app:
+### 02 - Criar um app:
 - Tenha uma lista (tableView) com 10 animais.
 - Cada célula (linha) deve ter o nome, raça, peso e espécie de um animal.
 - Quando tocar numa celula, deve abrir uma tela em modal, nessa tela deve haver um botão de fechar e um label com o nome do animal.
