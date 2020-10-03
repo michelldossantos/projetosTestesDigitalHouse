@@ -34,7 +34,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 10 [Desafio App Lista de Compras](https://github.com/michelldossantos/app-ListaCompras)
   - Aula 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazExercicioTableView)
   - Aula 15 [Desafio TableView Avançado](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09/desafioTableView)
-   - Aula 15 [Desafios Collection View](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
+  - Aula 16 [Desafios Collection View](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
 
       
 
