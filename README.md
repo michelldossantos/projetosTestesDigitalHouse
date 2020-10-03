@@ -19,6 +19,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 13](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2013%2023:09): SCRUM / Introdução ao projeto Integrador
   - [Aula 14](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09): TableView
   - [Aula 15](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09): TableView Avançado
+  - [Aula 16](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09): CollectionView
   
   
 
@@ -33,6 +34,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 10 [Desafio App Lista de Compras](https://github.com/michelldossantos/app-ListaCompras)
   - Aula 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazExercicioTableView)
   - Aula 15 [Desafio TableView Avançado](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09/desafioTableView)
+   - Aula 15 [Desafios Collection View](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
 
       
 
