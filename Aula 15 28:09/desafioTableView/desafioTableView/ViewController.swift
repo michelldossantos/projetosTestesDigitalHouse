@@ -11,10 +11,13 @@ class ViewController: UIViewController {
     
     var arrayDevelopers = [Developer]()
     @IBOutlet weak var tableViewList: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewList.delegate = self
         tableViewList.dataSource = self
+        
+        
         arrayDevelopers.append(Developer(nome: "Michel", profileImage: "michel.jpeg", email: "michelsantos15@gmail.com"))
         
         arrayDevelopers.append(Developer(nome: "Daniele", profileImage: "dani.jpg", email: "danistein@gmail.com"))

@@ -79,11 +79,7 @@
 				D03F0D472522BB4A00FBCF02 /* LaunchScreen.storyboard */,
 				D03F0D4A2522BB4A00FBCF02 /* Info.plist */,
 				D03F0D552522C04400FBCF02 /* DeveloperCell.swift */,
-				D03F0D592522C4F600FBCF02 /* michel.jpeg */,
-				D03F0D5D2522CBCC00FBCF02 /* dani.jpg */,
-				D03F0D602522CC4A00FBCF02 /* jorge.jpeg */,
-				D03F0D632522CC6800FBCF02 /* marcela.jpeg */,
-				D03F0D662522D0CC00FBCF02 /* narlei.jpeg */,
+				D065FDBC2524219F00740232 /* images */,
 			);
 			path = desafioTableView;
 			sourceTree = "<group>";
@@ -94,6 +90,18 @@
 				D03F0D522522BD1800FBCF02 /* Developer.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		D065FDBC2524219F00740232 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D03F0D592522C4F600FBCF02 /* michel.jpeg */,
+				D03F0D5D2522CBCC00FBCF02 /* dani.jpg */,
+				D03F0D602522CC4A00FBCF02 /* jorge.jpeg */,
+				D03F0D632522CC6800FBCF02 /* marcela.jpeg */,
+				D03F0D662522D0CC00FBCF02 /* narlei.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

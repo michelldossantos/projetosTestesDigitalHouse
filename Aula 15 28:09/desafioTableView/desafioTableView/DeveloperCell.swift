@@ -37,3 +37,8 @@ class DeveloperCell: UITableViewCell {
     
 
 }
+
+
+
+
+
