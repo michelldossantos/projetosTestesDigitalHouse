@@ -34,8 +34,10 @@ class ViewController: UIViewController {
         arrayPessoa.append(Pessoa(nome: "Pedro", cargo: "Android", email: "pedro@gmail"))
         arrayPessoa.append(Pessoa(nome: "Lucas", cargo: "Java", email: "lucas@gmail"))
         arrayPessoa.append(Pessoa(nome: "João", cargo: "PHP", email: "joao@gmail.com"))
-        
-        
+        arrayPessoa.append(Pessoa(nome: "Paulo", cargo: "PHP", email: "paulo@gmail.com"))
+        arrayPessoa.append(Pessoa(nome: "Joana", cargo: "PHP", email: "joana@gmail.com"))
+        arrayPessoa.append(Pessoa(nome: "Laura", cargo: "PHP", email: "laura@gmail.com"))
+        arrayPessoa.append(Pessoa(nome: "Dani", cargo: "PHP", email: "Dani@gmail.com"))
     }
 
 
