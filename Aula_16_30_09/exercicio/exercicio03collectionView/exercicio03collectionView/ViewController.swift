@@ -18,28 +18,31 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         carCollectionView.delegate = self
         carCollectionView.dataSource = self
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
-        arrayCar.append(Car(nome: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
+        arrayCar.append(Car(name: "Uno", nameImage: "uno.jpeg"))
     }
 
 
 }
 
 extension ViewController: UICollectionViewDelegate{
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let viewNavigation = UIStoryboard(name: "Navigation", bundle: nil).instantiateInitialViewController() as? NavigationViewController{
-            navigationController?.pushViewController(viewNavigation, animated: true)
-           
+
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
+        
+        if let telaNavigation = UIStoryboard(name: "Navigation", bundle: nil).instantiateInitialViewController() as? NavigationViewController{
             
-        }
+            navigationController?.pushViewController(telaNavigation, animated: true)
+            telaNavigation.setImage(car: arrayCar[indexPath.row])
+//        
+    }
     }
 }
 
@@ -51,6 +54,7 @@ extension ViewController: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = carCollectionView.dequeueReusableCell(withReuseIdentifier: "CarCollectionViewCell", for: indexPath) as! CarCollectionViewCell
             cell.setup(car: arrayCar[indexPath.row])
+        
             return cell
         }
         

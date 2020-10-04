@@ -15,6 +15,6 @@ class CarCollectionViewCell: UICollectionViewCell {
     
     func setup (car: Car){
         imageCar.image = UIImage(named: car.nameImage)
-        nameCar.text = car.nome
+        nameCar.text = car.name
     }
 }

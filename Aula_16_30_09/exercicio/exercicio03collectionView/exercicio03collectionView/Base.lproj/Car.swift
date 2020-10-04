@@ -10,11 +10,11 @@ import Foundation
 
 
 class Car{
-    var nome: String
+    var name: String
     var nameImage: String
     
-    init(nome:String, nameImage: String) {
-        self.nome = nome
+    init(name:String, nameImage: String) {
+        self.name = name
         self.nameImage = nameImage
     }
     

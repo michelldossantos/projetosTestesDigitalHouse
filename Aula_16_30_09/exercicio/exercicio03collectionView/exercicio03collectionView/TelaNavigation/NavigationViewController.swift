@@ -10,25 +10,18 @@ import UIKit
 class NavigationViewController: UIViewController {
 
     @IBOutlet weak var imageNavigation: UIImageView!
+    private var car: Car!
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageNavigation.image = UIImage(named: car!.nameImage )
 
-        // Do any additional setup after loading the view.
     }
     
-    func setImage(car: Car){
-        imageNavigation.image = UIImage(named: car.nameImage)
+    func setImage(car: Car) {
+        self.car = car
         
     }
+    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
