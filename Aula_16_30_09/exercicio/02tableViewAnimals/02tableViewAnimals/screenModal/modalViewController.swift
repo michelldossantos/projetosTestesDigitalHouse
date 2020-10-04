@@ -10,6 +10,9 @@ import UIKit
 class modalViewController: UIViewController {
     @IBOutlet weak var labelNomeModal: UILabel!
     
+    @IBAction func buttonclose(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     func setup(animal: Animals){
         labelNomeModal.text = animal.name
     }
