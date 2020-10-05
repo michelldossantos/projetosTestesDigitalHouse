@@ -3,7 +3,10 @@
 //  04collectionViewNome
 //
 //  Created by Michel dos Santos on 04/10/20.
-//
+//04 - Criar um app:
+//  - Tenha uma collectionview com 20 nomes na horizontal; - OK!
+//  - Cada célula deve ter um nome numa label, e o background da celula ser cinza fraco; - OK!
+//  - Ao tocar na celula, reve remover ela da collectionview, do array e recarregar.
 
 import UIKit
 
@@ -63,6 +66,7 @@ extension ViewController: UICollectionViewDataSource{
         return cell
     }
     
+   
    
     
 }
