@@ -45,6 +45,11 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDelegate{
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        arrayName.remove(at: indexPath.row)
+        collectionView.reloadData()
+    }
+    
 }
 
 extension ViewController: UICollectionViewDataSource{
