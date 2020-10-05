@@ -9,17 +9,18 @@ import UIKit
 
 class ScreenNavigationViewController: UIViewController {
 
-    @IBOutlet weak var imageCar: UIImageView!
-    private var car: Car!
+    @IBOutlet weak var imageCar: UIImageView?
+    var car: Car!
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageCar.image = UIImage(named: car!.nameImage)
+        imageCar?.image = UIImage(named: car.nameImage)
     }
     
-    func setImage(car: Car) {
-        self.car = car
-        
-    }
+//    func setImage(car: Car) {
+////        self.car = car
+//        imageCar?.image = UIImage(named: car.nameImage)
+//
+//    }
     
 
 

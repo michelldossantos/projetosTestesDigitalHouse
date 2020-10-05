@@ -34,9 +34,14 @@ extension ViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
 
         if let telaNavigation = UIStoryboard(name: "Navigation", bundle: nil).instantiateInitialViewController() as? ScreenNavigationViewController{
-
+            
+//            present(telaNavigation, animated: true, completion: nil)
+            
+            
             navigationController?.pushViewController(telaNavigation, animated: true)
-            telaNavigation.setImage(car: arrayCar[indexPath.row])
+            telaNavigation.car = arrayCar[indexPath.row]
+            
+            
         
 //
     }
