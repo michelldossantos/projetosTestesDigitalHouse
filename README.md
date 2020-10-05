@@ -20,7 +20,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 14](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09): TableView
   - [Aula 15](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09): TableView Avançado
   - [Aula 16](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09): CollectionView
-  - Aula 17: Apresentação um Projeto Integrador
+  - Aula 17: Apresentação Temas Projeto Integrador
+  - [Aula 18](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05): IBOulet/IBAction - avançado (conexões por código)
   
   
 
@@ -35,7 +36,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 10 [Desafio App Lista de Compras](https://github.com/michelldossantos/app-ListaCompras)
   - Aula 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazExercicioTableView)
   - Aula 15 [Desafio TableView Avançado](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09/desafioTableView)
-  - Aula 16 [Exercicio Collection View e TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
+  - Aula 16 [Exercicios Collection View e TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
+  - Aula 18 [Desafio IBOulet/IBAction](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05/desafioOutletIBActionAvancado)
   
 
       
