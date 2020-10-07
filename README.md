@@ -22,7 +22,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 16](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09): CollectionView
   - Aula 17: Apresentação Temas Projeto Integrador
   - [Aula 18](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05): IBOulet/IBAction - avançado (conexões por código)
-  
+  - [Aula 19](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07): Enum e SegmentControll
   
 
 
