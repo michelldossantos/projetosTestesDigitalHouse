@@ -38,7 +38,9 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 15 [Desafio TableView Avançado](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09/desafioTableView)
   - Aula 16 [Exercicios Collection View e TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
   - Aula 18 [Desafio IBOulet/IBAction](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05/desafioOutletIBActionAvancado)
+  - Aula 19 [Desafio SegmentControl](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07/desafioSegmentedControl)
   
+
 
       
 
