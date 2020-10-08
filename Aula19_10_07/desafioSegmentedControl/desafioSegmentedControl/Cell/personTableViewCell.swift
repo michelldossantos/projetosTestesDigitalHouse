@@ -13,6 +13,7 @@ class personTableViewCell: UITableViewCell {
     @IBOutlet var imageViewPerson: UIImageView!
     
     func setup(person: Person){
+        
         if  let developer = person as? Developer{
             labelNamePerson.text = developer.name
             imageViewPerson.image = UIImage(named: developer.nameImage)
@@ -22,6 +23,8 @@ class personTableViewCell: UITableViewCell {
             imageViewPerson.image = UIImage(named: person.nameImage)
             
         }
+        imageViewPerson.layer.cornerRadius = imageViewPerson.frame.height / 2
+        imageViewPerson.clipsToBounds = true
     }
     override func awakeFromNib() {
         super.awakeFromNib()

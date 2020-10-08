@@ -21,10 +21,10 @@ class ViewController: UIViewController {
         
         arrayPerson = [Person]()
         if segmentedControlPerson.selectedSegmentIndex == TypePerson.developer{
-            arrayPerson.append(Developer(name: "Miche", nameImage: "dev.jpg"))
+            arrayPerson.append(Developer(name: "Michel", nameImage: "dev.jpg"))
             arrayPerson.append(Developer(name: "Narlei", nameImage: "dev2.jpeg"))
         }else{
-            arrayPerson.append(Person(name: "Laura", nameImage: "p1.jpg"))
+            arrayPerson.append(Person(name: "Pedro", nameImage: "p1.jpg"))
             arrayPerson.append(Person(name: "Ana", nameImage: "p2.jpg"))
         }
         
