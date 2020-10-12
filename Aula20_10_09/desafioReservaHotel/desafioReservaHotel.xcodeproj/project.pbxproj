@@ -16,6 +16,7 @@
 		D0ACC1B32530A5D0005508E5 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACC1B22530A5D0005508E5 /* Hotel.swift */; };
 		D0ACC1BA2532A8F0005508E5 /* daysweekAndWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACC1B92532A8F0005508E5 /* daysweekAndWeekend.swift */; };
 		D0ACC1BE2532A9D8005508E5 /* formatterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACC1BD2532A9D8005508E5 /* formatterDate.swift */; };
+		D0E220B625347916005B9CEA /* stayDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E220B525347916005B9CEA /* stayDays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D0ACC1B22530A5D0005508E5 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
 		D0ACC1B92532A8F0005508E5 /* daysweekAndWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daysweekAndWeekend.swift; sourceTree = "<group>"; };
 		D0ACC1BD2532A9D8005508E5 /* formatterDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatterDate.swift; sourceTree = "<group>"; };
+		D0E220B525347916005B9CEA /* stayDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stayDays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D0ACC1B82532A898005508E5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0E220B525347916005B9CEA /* stayDays.swift */,
 				D0ACC1BD2532A9D8005508E5 /* formatterDate.swift */,
 				D0ACC1B92532A8F0005508E5 /* daysweekAndWeekend.swift */,
 				D0ACC1B02530A4E1005508E5 /* Class */,
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E220B625347916005B9CEA /* stayDays.swift in Sources */,
 				D0ACC1A02530A4CE005508E5 /* ViewController.swift in Sources */,
 				D0ACC1BE2532A9D8005508E5 /* formatterDate.swift in Sources */,
 				D0ACC1BA2532A8F0005508E5 /* daysweekAndWeekend.swift in Sources */,

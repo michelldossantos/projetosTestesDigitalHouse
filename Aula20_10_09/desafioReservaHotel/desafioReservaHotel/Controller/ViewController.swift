@@ -37,18 +37,36 @@ class ViewController: UIViewController {
    //MARK: Action
     @IBAction func buttonMelhorHotel(_ sender: Any) {
  
-        strDatecheckIn = formatterDate(type: "d", dataPicker: dataPickerCheckIn) // d = day of month
-        strDateCheckOut = formatterDate(type: "d", dataPicker: dataPickerCheckOut) // d = day of month
-        totalDiarias = Int(strDateCheckOut!)! - Int(strDatecheckIn!)! // total daily
-        let dayWeekNumber = formatterDate(type: "e", dataPicker: dataPickerCheckIn) //weekday number
+//        strDatecheckIn = formatterDate(type: "d", dataPicker: dataPickerCheckIn) // d = day of month
+//        strDateCheckOut = formatterDate(type: "d", dataPicker: dataPickerCheckOut) // d = day of month
+//        totalDiarias = Int(strDateCheckOut!)! - Int(strDatecheckIn!)! // total daily
+//        let dayWeekNumber = formatterDate(type: "e", dataPicker: dataPickerCheckIn) //weekday number
+        let dataChekin = dataPickerCheckIn.date
+        let dataCheckOut = dataPickerCheckOut.date
         
+        let days = Calendar.current.dateComponents([.day], from: dataChekin, to: dataCheckOut)
+        var count = 0
         
+        print(Int(days.day!))
+        
+        while count <= days.day!{
+        
+        if Calendar.current.isDateInWeekend(data){
+            print("FINDI")
+        }
+        else{
+           print( "Semana")
+        }
+            dataPickerCheckIn.date = Calendar.current.date(byAdding: .day, value: 1, to: dataPickerCheckIn.date)!
+        count += 1
+        }
         
     }
     
    
     override func viewDidLoad() {
         super.viewDidLoad()
+       
 
     }
 

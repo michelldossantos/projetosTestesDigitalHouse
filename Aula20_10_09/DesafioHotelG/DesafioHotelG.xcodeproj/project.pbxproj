@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E220C625347F86005B9CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E220C525347F86005B9CEA /* AppDelegate.swift */; };
+		D0E220C825347F86005B9CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E220C725347F86005B9CEA /* SceneDelegate.swift */; };
+		D0E220CA25347F86005B9CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E220C925347F86005B9CEA /* ViewController.swift */; };
+		D0E220CD25347F86005B9CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E220CB25347F86005B9CEA /* Main.storyboard */; };
+		D0E220CF25347F8A005B9CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E220CE25347F8A005B9CEA /* Assets.xcassets */; };
+		D0E220D225347F8A005B9CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E220D025347F8A005B9CEA /* LaunchScreen.storyboard */; };
+		D0E220DC25348387005B9CEA /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E220DB25348387005B9CEA /* Hotel.swift */; };
+		D0E220DF25349D69005B9CEA /* bestHotel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E220DE25349D69005B9CEA /* bestHotel.storyboard */; };
+		D0E220E22534A2FB005B9CEA /* bestHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E220E12534A2FB005B9CEA /* bestHotelViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0E220C225347F86005B9CEA /* DesafioHotelG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioHotelG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E220C525347F86005B9CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0E220C725347F86005B9CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0E220C925347F86005B9CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0E220CC25347F86005B9CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E220CE25347F8A005B9CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E220D125347F8A005B9CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E220D325347F8A005B9CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E220DB25348387005B9CEA /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		D0E220DE25349D69005B9CEA /* bestHotel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = bestHotel.storyboard; sourceTree = "<group>"; };
+		D0E220E12534A2FB005B9CEA /* bestHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestHotelViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E220BF25347F86005B9CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E220B925347F86005B9CEA = {
+			isa = PBXGroup;
+			children = (
+				D0E220C425347F86005B9CEA /* DesafioHotelG */,
+				D0E220C325347F86005B9CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E220C325347F86005B9CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E220C225347F86005B9CEA /* DesafioHotelG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E220C425347F86005B9CEA /* DesafioHotelG */ = {
+			isa = PBXGroup;
+			children = (
+				D0E220DA25348377005B9CEA /* Class */,
+				D0E220C525347F86005B9CEA /* AppDelegate.swift */,
+				D0E220C725347F86005B9CEA /* SceneDelegate.swift */,
+				D0E220C925347F86005B9CEA /* ViewController.swift */,
+				D0E220CB25347F86005B9CEA /* Main.storyboard */,
+				D0E220DE25349D69005B9CEA /* bestHotel.storyboard */,
+				D0E220CE25347F8A005B9CEA /* Assets.xcassets */,
+				D0E220D025347F8A005B9CEA /* LaunchScreen.storyboard */,
+				D0E220D325347F8A005B9CEA /* Info.plist */,
+			);
+			path = DesafioHotelG;
+			sourceTree = "<group>";
+		};
+		D0E220DA25348377005B9CEA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D0E220DB25348387005B9CEA /* Hotel.swift */,
+				D0E220E12534A2FB005B9CEA /* bestHotelViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E220C125347F86005B9CEA /* DesafioHotelG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E220D625347F8A005B9CEA /* Build configuration list for PBXNativeTarget "DesafioHotelG" */;
+			buildPhases = (
+				D0E220BE25347F86005B9CEA /* Sources */,
+				D0E220BF25347F86005B9CEA /* Frameworks */,
+				D0E220C025347F86005B9CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioHotelG;
+			productName = DesafioHotelG;
+			productReference = D0E220C225347F86005B9CEA /* DesafioHotelG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E220BA25347F86005B9CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D0E220C125347F86005B9CEA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = D0E220BD25347F86005B9CEA /* Build configuration list for PBXProject "DesafioHotelG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E220B925347F86005B9CEA;
+			productRefGroup = D0E220C325347F86005B9CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E220C125347F86005B9CEA /* DesafioHotelG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E220C025347F86005B9CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E220D225347F8A005B9CEA /* LaunchScreen.storyboard in Resources */,
+				D0E220DF25349D69005B9CEA /* bestHotel.storyboard in Resources */,
+				D0E220CF25347F8A005B9CEA /* Assets.xcassets in Resources */,
+				D0E220CD25347F86005B9CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E220BE25347F86005B9CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E220CA25347F86005B9CEA /* ViewController.swift in Sources */,
+				D0E220C625347F86005B9CEA /* AppDelegate.swift in Sources */,
+				D0E220E22534A2FB005B9CEA /* bestHotelViewController.swift in Sources */,
+				D0E220DC25348387005B9CEA /* Hotel.swift in Sources */,
+				D0E220C825347F86005B9CEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0E220CB25347F86005B9CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E220CC25347F86005B9CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E220D025347F8A005B9CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E220D125347F8A005B9CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E220D425347F8A005B9CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E220D525347F8A005B9CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E220D725347F8A005B9CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioHotelG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.DesafioHotelG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E220D825347F8A005B9CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DesafioHotelG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.DesafioHotelG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E220BD25347F86005B9CEA /* Build configuration list for PBXProject "DesafioHotelG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E220D425347F8A005B9CEA /* Debug */,
+				D0E220D525347F8A005B9CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E220D625347F8A005B9CEA /* Build configuration list for PBXNativeTarget "DesafioHotelG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E220D725347F8A005B9CEA /* Debug */,
+				D0E220D825347F8A005B9CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E220BA25347F86005B9CEA /* Project object */;
+}
