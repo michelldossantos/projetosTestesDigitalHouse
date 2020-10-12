@@ -14,6 +14,8 @@
 		D0ACC1A52530A4D2005508E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ACC1A42530A4D2005508E5 /* Assets.xcassets */; };
 		D0ACC1A82530A4D2005508E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ACC1A62530A4D2005508E5 /* LaunchScreen.storyboard */; };
 		D0ACC1B32530A5D0005508E5 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACC1B22530A5D0005508E5 /* Hotel.swift */; };
+		D0ACC1BA2532A8F0005508E5 /* daysweekAndWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACC1B92532A8F0005508E5 /* daysweekAndWeekend.swift */; };
+		D0ACC1BE2532A9D8005508E5 /* formatterDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACC1BD2532A9D8005508E5 /* formatterDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D0ACC1A72530A4D2005508E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0ACC1A92530A4D2005508E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0ACC1B22530A5D0005508E5 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		D0ACC1B92532A8F0005508E5 /* daysweekAndWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daysweekAndWeekend.swift; sourceTree = "<group>"; };
+		D0ACC1BD2532A9D8005508E5 /* formatterDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatterDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,11 @@
 		D0ACC19A2530A4CE005508E5 /* desafioReservaHotel */ = {
 			isa = PBXGroup;
 			children = (
-				D0ACC1B02530A4E1005508E5 /* Class */,
+				D0ACC1B82532A898005508E5 /* Model */,
+				D0ACC1B72532A832005508E5 /* Controller */,
+				D0ACC1B62532A825005508E5 /* View */,
 				D0ACC19B2530A4CE005508E5 /* AppDelegate.swift */,
 				D0ACC19D2530A4CE005508E5 /* SceneDelegate.swift */,
-				D0ACC19F2530A4CE005508E5 /* ViewController.swift */,
-				D0ACC1A12530A4CE005508E5 /* Main.storyboard */,
 				D0ACC1A42530A4D2005508E5 /* Assets.xcassets */,
 				D0ACC1A62530A4D2005508E5 /* LaunchScreen.storyboard */,
 				D0ACC1A92530A4D2005508E5 /* Info.plist */,
@@ -76,6 +80,32 @@
 				D0ACC1B22530A5D0005508E5 /* Hotel.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		D0ACC1B62532A825005508E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACC1A12530A4CE005508E5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0ACC1B72532A832005508E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACC19F2530A4CE005508E5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0ACC1B82532A898005508E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACC1BD2532A9D8005508E5 /* formatterDate.swift */,
+				D0ACC1B92532A8F0005508E5 /* daysweekAndWeekend.swift */,
+				D0ACC1B02530A4E1005508E5 /* Class */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0ACC1A02530A4CE005508E5 /* ViewController.swift in Sources */,
+				D0ACC1BE2532A9D8005508E5 /* formatterDate.swift in Sources */,
+				D0ACC1BA2532A8F0005508E5 /* daysweekAndWeekend.swift in Sources */,
 				D0ACC19C2530A4CE005508E5 /* AppDelegate.swift in Sources */,
 				D0ACC1B32530A5D0005508E5 /* Hotel.swift in Sources */,
 				D0ACC19E2530A4CE005508E5 /* SceneDelegate.swift in Sources */,

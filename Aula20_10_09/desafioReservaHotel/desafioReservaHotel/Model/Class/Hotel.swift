@@ -31,6 +31,10 @@ class Hotel{
         self.weekendReward = weekendReward
        
     }
+    
+    func valorPagar(){
+        
+    }
 
 }
 
