@@ -5,6 +5,10 @@
 //  Created by Michel dos Santos on 12/10/20.
 //
 
+
+
+// TODO: MVc
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -47,8 +51,7 @@ class ViewController: UIViewController {
             }else{
                 weekDays += 1
             }
-//            dateCheckIn = calendar.date(byAdding: .day, value: 1, to: dateCheckIn)!
-//            print(dateCheckIn)
+
             
             
             count += 1
