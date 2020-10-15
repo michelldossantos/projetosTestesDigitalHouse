@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="desafioPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="YhC-Xf-JMn">
+                                <rect key="frame" x="20" y="64" width="374" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fid-vs-a7q">
+                                <rect key="frame" x="20" y="140" width="374" height="216"/>
+                            </pickerView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UPh-Ye-oiL">
+                                <rect key="frame" x="0.0" y="372" width="414" height="524"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="listTableViewCell" rowHeight="126" id="mrW-HF-Gmc" customClass="listTableViewCell" customModule="desafioPickerView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="126"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mrW-HF-Gmc" id="9x0-P9-yk2">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="126"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7g6-SA-jVo">
+                                                    <rect key="frame" x="20" y="21" width="345" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="textFieldName" destination="7g6-SA-jVo" id="cCR-mg-DKH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YhC-Xf-JMn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3D7-2c-fja"/>
+                            <constraint firstItem="UPh-Ye-oiL" firstAttribute="top" secondItem="Fid-vs-a7q" secondAttribute="bottom" constant="16" id="Igz-9k-fE7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YhC-Xf-JMn" secondAttribute="trailing" constant="20" id="McC-fo-2aV"/>
+                            <constraint firstItem="Fid-vs-a7q" firstAttribute="top" secondItem="YhC-Xf-JMn" secondAttribute="bottom" constant="20" id="Z40-03-Mbd"/>
+                            <constraint firstItem="UPh-Ye-oiL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="c8d-QR-aeT"/>
+                            <constraint firstItem="UPh-Ye-oiL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hSN-W8-Ftb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fid-vs-a7q" secondAttribute="trailing" constant="20" id="kg4-ot-tV2"/>
+                            <constraint firstAttribute="bottom" secondItem="UPh-Ye-oiL" secondAttribute="bottom" id="qzg-d7-TU1"/>
+                            <constraint firstItem="YhC-Xf-JMn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="z8f-g0-Kgt"/>
+                            <constraint firstItem="Fid-vs-a7q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zTK-9y-lgu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pickerViewCitys" destination="Fid-vs-a7q" id="XFJ-kb-cPl"/>
+                        <outlet property="searchBarCitys" destination="YhC-Xf-JMn" id="2Vp-DD-kZK"/>
+                        <outlet property="tableViewList" destination="UPh-Ye-oiL" id="Yd4-Lo-lZr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.043478260869566" y="98.4375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
