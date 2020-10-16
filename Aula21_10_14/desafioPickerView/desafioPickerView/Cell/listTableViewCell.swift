@@ -23,7 +23,7 @@ class listTableViewCell: UITableViewCell {
     
     func setupLabelName(city: City){
         
-        textFieldName.text = city.name
+        textFieldName.text = " \(city.name) - \(city.country) - \(city.state)"
     }
 
 }

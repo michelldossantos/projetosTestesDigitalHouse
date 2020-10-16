@@ -46,6 +46,18 @@ enum enumStates{
     static let RJ = 3
 }
 
+enum stringOfState{
+    static let RJ = "RJ"
+    static let RS = "RS"
+    static let CN = "CN"
+    
+}
+
+enum stringOfCountries{
+    static let BR = "BR"
+    static let CN = "CN"
+}
+
 
 
 class ViewController: UIViewController {
@@ -69,25 +81,26 @@ class ViewController: UIViewController {
         pickerViewCitys.dataSource = self
         
         
-        arrayCities.append(City(name: "Sapiranga", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Ararica", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Novo Hamburgo", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Sapucaia", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Porto Alegre", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Hong Kong", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Barra Mansa", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Canela", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Hancheu", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Caxias do sul", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Araruama", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Tianjin", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Wuhan", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Campo Bom", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Barra do Piraí", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Gramado", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Rio Janeiro", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Pequin", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Angra dos Reis.", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Sapiranga", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Ararica", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Barra do Piraí", state: stringOfState.RJ, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Novo Hamburgo", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Sapucaia", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Hong Kong", state: stringOfState.CN, country: stringOfCountries.CN, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Porto Alegre", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Barra Mansa", state: stringOfState.RJ, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Canela", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Hancheu", state: stringOfState.CN, country: stringOfCountries.CN, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Caxias do sul", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Araruama", state: stringOfState.RJ, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Tianjin", state: stringOfState.CN, country: stringOfCountries.CN, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Wuhan", state: stringOfState.CN, country: stringOfCountries.CN, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Campo Bom", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        
+        arrayCities.append(City(name: "Gramado", state: stringOfState.RS, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Rio Janeiro", state: stringOfState.RJ, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Pequin", state: stringOfState.CN, country: stringOfCountries.CN, numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Angra dos Reis.", state: stringOfState.RJ, country: stringOfCountries.BR, numberOfInhabitants: 90000, temperature: 8))
         
         
         
@@ -156,9 +169,9 @@ extension ViewController: UIPickerViewDelegate{
             
             switch row {
             case enumCountrys.brasil:
-                arrayFilter = arrayCities.filter{$0.country == "BR"}
+                arrayFilter = arrayCities.filter{$0.country == stringOfCountries.BR}
             case enumCountrys.china:
-                arrayFilter = arrayCities.filter{$0.country == "CN"}
+                arrayFilter = arrayCities.filter{$0.country == stringOfCountries.CN}
             case enumCountrys.all:
                 arrayFilter  = arrayCities
             default:
@@ -174,13 +187,13 @@ extension ViewController: UIPickerViewDelegate{
             
             switch row {
             case enumStates.RS:
-                arrayFilter = arrayCities.filter{$0.state == "RS"}
+                arrayFilter = arrayCities.filter{$0.state == stringOfState.RS}
             case enumStates.RJ:
-                arrayFilter = arrayCities.filter{$0.state == "RJ"}
+                arrayFilter = arrayCities.filter{$0.state == stringOfState.RJ}
             case enumCountrys.all:
                 arrayFilter  = arrayCities
             case enumStates.CN:
-                arrayFilter = arrayCities.filter{$0.state == "CN"}
+                arrayFilter = arrayCities.filter{$0.state == stringOfState.CN}
             default:
                 print("error")
             }

@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				D0F7B1E42537DF3F00D7B5D9 /* Cell */,
-				D0F7B1DF2537DA2600D7B5D9 /* Class */,
+				D0F7B1DF2537DA2600D7B5D9 /* classes */,
 				D0F7B1CA2537D9BA00D7B5D9 /* AppDelegate.swift */,
 				D0F7B1CC2537D9BA00D7B5D9 /* SceneDelegate.swift */,
 				D0F7B1CE2537D9BA00D7B5D9 /* ViewController.swift */,
@@ -73,12 +73,12 @@
 			path = desafioPickerView;
 			sourceTree = "<group>";
 		};
-		D0F7B1DF2537DA2600D7B5D9 /* Class */ = {
+		D0F7B1DF2537DA2600D7B5D9 /* classes */ = {
 			isa = PBXGroup;
 			children = (
 				D0F7B1E02537DA3700D7B5D9 /* City.swift */,
 			);
-			path = Class;
+			path = classes;
 			sourceTree = "<group>";
 		};
 		D0F7B1E42537DF3F00D7B5D9 /* Cell */ = {
