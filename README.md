@@ -23,6 +23,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 17: Apresentação Temas Projeto Integrador
   - [Aula 18](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05): IBOulet/IBAction - avançado (conexões por código)
   - [Aula 19](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07): Enum e SegmentControll
+  - [Aula 20](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula20_10_09): DataPicker
+  - [Aula 21](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula21_10_14): PickerView
   
 
 
@@ -39,6 +41,10 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 16 [Exercicios Collection View e TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
   - Aula 18 [Desafio IBOulet/IBAction](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05/desafioOutletIBActionAvancado)
   - Aula 19 [Desafio SegmentControl](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07/desafioSegmentedControl)
+  - Aula 20 [Desafio Hotel - DataPicker](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula20_10_09/DesafioHotelG)
+  - Aula 21 [Desafio PickerView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula21_10_14/desafioPickerView)
+  
+  
   
 
 
