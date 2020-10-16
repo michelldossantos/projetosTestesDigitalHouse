@@ -20,8 +20,9 @@
                                 <rect key="frame" x="20" y="64" width="374" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fid-vs-a7q">
+                            <pickerView clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fid-vs-a7q">
                                 <rect key="frame" x="20" y="140" width="374" height="216"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </pickerView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UPh-Ye-oiL">
                                 <rect key="frame" x="0.0" y="372" width="414" height="524"/>
@@ -77,6 +78,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

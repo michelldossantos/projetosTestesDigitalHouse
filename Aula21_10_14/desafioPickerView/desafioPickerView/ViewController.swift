@@ -26,6 +26,28 @@
 
 import UIKit
 
+enum enumFilter {
+    static let state = 1
+    static let country = 0
+    static let all = 2
+    
+}
+
+enum enumCountrys{
+    static let all = 0
+    static let brasil = 1
+    static let china = 2
+}
+
+enum enumStates{
+    static let all = 0
+    static let RS = 1
+    static let CN = 2
+    static let RJ = 3
+}
+
+
+
 class ViewController: UIViewController {
     
     @IBOutlet var searchBarCitys: UISearchBar!
@@ -35,12 +57,16 @@ class ViewController: UIViewController {
     
     var arrayCities = [City]()
     var arrayFilter = [City]()
+    let arrayState = ["Todos Estados","RS","CN","RJ"]
+    let arrayCountry = [" Todos Países", "Brasil", "China"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewList.delegate = self
         tableViewList.dataSource = self
         searchBarCitys.delegate = self
+        pickerViewCitys.delegate = self
+        pickerViewCitys.dataSource = self
         
         
         arrayCities.append(City(name: "Sapiranga", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
@@ -48,13 +74,26 @@ class ViewController: UIViewController {
         arrayCities.append(City(name: "Novo Hamburgo", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
         arrayCities.append(City(name: "Sapucaia", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
         arrayCities.append(City(name: "Porto Alegre", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Sapiranga", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
-        arrayCities.append(City(name: "Sapiranga", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Hong Kong", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Barra Mansa", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Canela", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Hancheu", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Caxias do sul", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Araruama", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Tianjin", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Wuhan", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Campo Bom", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Barra do Piraí", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Gramado", state: "RS", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Rio Janeiro", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Pequin", state: "CN", country: "CN", numberOfInhabitants: 90000, temperature: 8))
+        arrayCities.append(City(name: "Angra dos Reis.", state: "RJ", country: "BR", numberOfInhabitants: 90000, temperature: 8))
+        
         
         
     }
-
-
+    
+    
 }
 
 extension ViewController: UITableViewDelegate{
@@ -63,13 +102,21 @@ extension ViewController: UITableViewDelegate{
 
 extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return arrayFilter.count
+        if arrayFilter.isEmpty{
+            return arrayCities.count
+        }
+        return arrayFilter.count
         
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cel = tableView.dequeueReusableCell(withIdentifier: "listTableViewCell", for: indexPath) as! listTableViewCell
-        cel.setupLabelName(city: arrayFilter[indexPath.row])
+        if arrayFilter.isEmpty{
+            cel.setupLabelName(city: arrayCities[indexPath.row])
+        }else{
+            cel.setupLabelName(city: arrayFilter[indexPath.row])
+        }
+        
         
         return cel
     }
@@ -79,20 +126,105 @@ extension ViewController: UITableViewDataSource{
 
 extension ViewController: UISearchBarDelegate{
     
-
+    
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)  {
         
+        
         arrayFilter = [City]()
         for city in arrayCities{
-            if city.name.contains(searchText){
+            if city.name.contains(searchText) || city.state.contains(searchText)
+            || city.country.contains(searchText){
                 arrayFilter.append(city)
                 
             }
         }
- 
+        if searchText == ""{
+            arrayFilter = arrayCities
+            
+        }
+        tableViewList.reloadData()
+        
+        
     }
 }
+
+extension ViewController: UIPickerViewDelegate{
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
+        arrayFilter = [City]()
+        if component == enumFilter.country{
+            
+            switch row {
+            case enumCountrys.brasil:
+                arrayFilter = arrayCities.filter{$0.country == "BR"}
+            case enumCountrys.china:
+                arrayFilter = arrayCities.filter{$0.country == "CN"}
+            case enumCountrys.all:
+                arrayFilter  = arrayCities
+            default:
+                print("error")
+            }
+            
+           
+                
+          
+                }
+        
+        if component == enumFilter.state{
+            
+            switch row {
+            case enumStates.RS:
+                arrayFilter = arrayCities.filter{$0.state == "RS"}
+            case enumStates.RJ:
+                arrayFilter = arrayCities.filter{$0.state == "RJ"}
+            case enumCountrys.all:
+                arrayFilter  = arrayCities
+            case enumStates.CN:
+                arrayFilter = arrayCities.filter{$0.state == "CN"}
+            default:
+                print("error")
+            }
+            
+           
+                
+          
+                }
+        tableViewList.reloadData()
+            }
+        }
+        
     
+    
+
+
+extension ViewController: UIPickerViewDataSource{
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 2
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        if component == enumFilter.state{
+            return arrayState.count
+        }
+        if component == enumFilter.country{
+            return arrayCountry.count
+        }
+        return 3
+    }
+    
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+       
+        
+        if component == enumFilter.country {
+            return arrayCountry[row]
+        }
+        if component == enumFilter.state {
+            return arrayState[row]
+        }
+         return "algo deu errado"
+        
+    }
+}
 
 
