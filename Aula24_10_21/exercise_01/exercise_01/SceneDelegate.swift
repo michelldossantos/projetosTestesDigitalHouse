@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  exercicio_01
+//  exercise_01
 //
 //  Created by Michel dos Santos on 21/10/20.
 //
