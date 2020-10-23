@@ -25,6 +25,12 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 19](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07): Enum e SegmentControll
   - [Aula 20](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula20_10_09): DataPicker
   - [Aula 21](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula21_10_14): PickerView
+  - [Aula 22](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula22_10_16): UIGesture
+  - [Aula 23](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula23_10_19): Closure
+  - [Aula 24](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula24_10_21): Frames
+  
+  
+ 
   
 
 
@@ -43,6 +49,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 19 [Desafio SegmentControl](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07/desafioSegmentedControl)
   - Aula 20 [Desafio Hotel - DataPicker](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula20_10_09/DesafioHotelG)
   - Aula 21 [Desafio PickerView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula21_10_14/desafioPickerView)
+  - Aula 24 [Exercício Frames](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula24_10_21/exercise_01)
   
   
   
