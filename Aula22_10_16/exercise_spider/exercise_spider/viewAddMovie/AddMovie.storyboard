@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WRB-W6-9cO">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Movie View Controller-->
+        <scene sceneID="qCl-vb-w6L">
+            <objects>
+                <viewController id="WRB-W6-9cO" customClass="AddMovieViewController" customModule="exercise_spider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v8X-7z-lqd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BgI-U8-iRy">
+                                <rect key="frame" x="41" y="162" width="332" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gênero" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NHU-GA-of9">
+                                <rect key="frame" x="41" y="219" width="332" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgt-2h-gZn">
+                                <rect key="frame" x="30" y="786" width="354" height="46"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="yd4-tH-vaX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Salvar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionSaveMovie:" destination="WRB-W6-9cO" eventType="touchUpInside" id="ak9-Jk-jW8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wTR-jH-eyA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NHU-GA-of9" firstAttribute="top" secondItem="BgI-U8-iRy" secondAttribute="bottom" constant="23" id="Qnf-Vk-iUt"/>
+                            <constraint firstItem="wTR-jH-eyA" firstAttribute="bottom" secondItem="dgt-2h-gZn" secondAttribute="bottom" constant="30" id="Sj9-qL-tqW"/>
+                            <constraint firstItem="dgt-2h-gZn" firstAttribute="leading" secondItem="wTR-jH-eyA" secondAttribute="leading" constant="30" id="XY1-0i-zcS"/>
+                            <constraint firstItem="wTR-jH-eyA" firstAttribute="trailing" secondItem="NHU-GA-of9" secondAttribute="trailing" constant="41" id="aVt-eL-aPl"/>
+                            <constraint firstItem="wTR-jH-eyA" firstAttribute="trailing" secondItem="BgI-U8-iRy" secondAttribute="trailing" constant="41" id="afy-Of-0il"/>
+                            <constraint firstItem="BgI-U8-iRy" firstAttribute="top" secondItem="wTR-jH-eyA" secondAttribute="top" constant="118" id="azz-zy-bip"/>
+                            <constraint firstItem="NHU-GA-of9" firstAttribute="leading" secondItem="wTR-jH-eyA" secondAttribute="leading" constant="41" id="juP-bI-Yzg"/>
+                            <constraint firstItem="wTR-jH-eyA" firstAttribute="trailing" secondItem="dgt-2h-gZn" secondAttribute="trailing" constant="30" id="mXn-3J-wOv"/>
+                            <constraint firstItem="BgI-U8-iRy" firstAttribute="leading" secondItem="wTR-jH-eyA" secondAttribute="leading" constant="41" id="w3R-1V-lff"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldNameMovie" destination="BgI-U8-iRy" id="39z-CT-Fc0"/>
+                        <outlet property="textfieldType" destination="NHU-GA-of9" id="dlQ-b5-NGJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zUH-L9-q06" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266.66666666666669" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
