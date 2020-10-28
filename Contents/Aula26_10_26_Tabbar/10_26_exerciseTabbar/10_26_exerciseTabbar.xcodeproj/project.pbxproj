@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01F553C2548F3C000B1A33E /* DetailCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F553B2548F3C000B1A33E /* DetailCarViewController.swift */; };
+		D01F55402548F3D100B1A33E /* DetailCar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01F553F2548F3D100B1A33E /* DetailCar.storyboard */; };
 		D0FE94BD2547B4FE004FE41E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE94BC2547B4FE004FE41E /* AppDelegate.swift */; };
 		D0FE94BF2547B4FE004FE41E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE94BE2547B4FE004FE41E /* SceneDelegate.swift */; };
 		D0FE94C12547B4FE004FE41E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE94C02547B4FE004FE41E /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D01F553B2548F3C000B1A33E /* DetailCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarViewController.swift; sourceTree = "<group>"; };
+		D01F553F2548F3D100B1A33E /* DetailCar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailCar.storyboard; sourceTree = "<group>"; };
 		D0FE94B92547B4FE004FE41E /* 10_26_exerciseTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10_26_exerciseTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FE94BC2547B4FE004FE41E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FE94BE2547B4FE004FE41E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D01F553A2548F39800B1A33E /* viewDetailCar */ = {
+			isa = PBXGroup;
+			children = (
+				D01F553B2548F3C000B1A33E /* DetailCarViewController.swift */,
+				D01F553F2548F3D100B1A33E /* DetailCar.storyboard */,
+			);
+			path = viewDetailCar;
+			sourceTree = "<group>";
+		};
 		D0FE94B02547B4FD004FE41E = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +83,7 @@
 		D0FE94BB2547B4FE004FE41E /* 10_26_exerciseTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				D01F553A2548F39800B1A33E /* viewDetailCar */,
 				D0FE94E62547C17F004FE41E /* ViewController */,
 				D0FE94D82547BC5D004FE41E /* class */,
 				D0FE94D42547B727004FE41E /* Cell */,
@@ -169,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01F55402548F3D100B1A33E /* DetailCar.storyboard in Resources */,
 				D0FE94E42547C058004FE41E /* siena.jpeg in Resources */,
 				D0FE94DE2547BF59004FE41E /* uno.jpg in Resources */,
 				D0FE94C92547B502004FE41E /* LaunchScreen.storyboard in Resources */,
@@ -185,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01F553C2548F3C000B1A33E /* DetailCarViewController.swift in Sources */,
 				D0FE94D62547B749004FE41E /* TableViewCell.swift in Sources */,
 				D0FE94D22547B71C004FE41E /* CarDetailViewController.swift in Sources */,
 				D0FE94DA2547BC6D004FE41E /* Car.swift in Sources */,

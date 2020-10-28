@@ -31,6 +31,7 @@
         <!--Item-->
         <scene sceneID="lG5-8x-vk9">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OR3-KS-S0A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="CbM-ap-0FO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="car" catalog="system" id="cXB-CG-1ZD">
                         <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -43,7 +44,6 @@
                         <segue destination="nz2-45-pq3" kind="relationship" relationship="rootViewController" id="bfP-I8-tWt"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OR3-KS-S0A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1368" y="627"/>
         </scene>
