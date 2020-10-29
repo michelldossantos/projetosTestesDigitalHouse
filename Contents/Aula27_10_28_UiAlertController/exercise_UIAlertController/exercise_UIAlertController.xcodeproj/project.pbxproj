@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00CA8AD254ACC8200F9E6DA /* piproca.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D00CA8AC254ACC8200F9E6DA /* piproca.jpeg */; };
+		D00CA8B1254ACDC100F9E6DA /* latao.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D00CA8B0254ACDC100F9E6DA /* latao.jpeg */; };
 		D09B5FD9254A448900B4E69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B5FD8254A448900B4E69A /* AppDelegate.swift */; };
 		D09B5FDB254A448900B4E69A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B5FDA254A448900B4E69A /* SceneDelegate.swift */; };
 		D09B5FDD254A448900B4E69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B5FDC254A448900B4E69A /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00CA8AC254ACC8200F9E6DA /* piproca.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piproca.jpeg; sourceTree = "<group>"; };
+		D00CA8B0254ACDC100F9E6DA /* latao.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = latao.jpeg; sourceTree = "<group>"; };
 		D09B5FD5254A448900B4E69A /* exercise_UIAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise_UIAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09B5FD8254A448900B4E69A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D09B5FDA254A448900B4E69A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				D09B5FFD254A64ED00B4E69A /* bala.jpeg */,
 				D09B600E254A694B00B4E69A /* cervejas.jpeg */,
 				D09B600A254A68F700B4E69A /* cerveja.jpeg */,
+				D00CA8AC254ACC8200F9E6DA /* piproca.jpeg */,
+				D00CA8B0254ACDC100F9E6DA /* latao.jpeg */,
 			);
 			path = exercise_UIAlertController;
 			sourceTree = "<group>";
@@ -162,9 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09B600B254A68F700B4E69A /* cerveja.jpeg in Resources */,
+				D00CA8AD254ACC8200F9E6DA /* piproca.jpeg in Resources */,
 				D09B5FE5254A448E00B4E69A /* LaunchScreen.storyboard in Resources */,
 				D09B5FE2254A448E00B4E69A /* Assets.xcassets in Resources */,
 				D09B600F254A694B00B4E69A /* cervejas.jpeg in Resources */,
+				D00CA8B1254ACDC100F9E6DA /* latao.jpeg in Resources */,
 				D09B6013254A69E200B4E69A /* batata.jpeg in Resources */,
 				D09B5FFE254A64EE00B4E69A /* bala.jpeg in Resources */,
 				D09B5FE0254A448900B4E69A /* Main.storyboard in Resources */,
