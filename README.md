@@ -30,7 +30,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 24](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula24_10_21_Frames): Frames
   - [Aula 25](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula25_10_23_AutoLayout): AutoLayout
   - [Aula 26](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula26_10_26_Tabbar): TabBar
-  - [Aula 27](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): TabBar
+  - [Aula 27](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): UiAlertController
   
   
  
