@@ -55,6 +55,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00CA8B5254AD1EC00F9E6DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D09B6012254A69E200B4E69A /* batata.jpeg */,
+				D09B5FFA254A64DB00B4E69A /* pipoca.jpeg */,
+				D09B5FFD254A64ED00B4E69A /* bala.jpeg */,
+				D09B600E254A694B00B4E69A /* cervejas.jpeg */,
+				D09B600A254A68F700B4E69A /* cerveja.jpeg */,
+				D00CA8AC254ACC8200F9E6DA /* piproca.jpeg */,
+				D00CA8B0254ACDC100F9E6DA /* latao.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		D09B5FCC254A448900B4E69A = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +88,7 @@
 		D09B5FD7254A448900B4E69A /* exercise_UIAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				D00CA8B5254AD1EC00F9E6DA /* Images */,
 				D09B5FF2254A469400B4E69A /* Cell */,
 				D09B5FED254A456200B4E69A /* Class */,
 				D09B5FD8254A448900B4E69A /* AppDelegate.swift */,
@@ -83,13 +98,6 @@
 				D09B5FE1254A448E00B4E69A /* Assets.xcassets */,
 				D09B5FE3254A448E00B4E69A /* LaunchScreen.storyboard */,
 				D09B5FE6254A448E00B4E69A /* Info.plist */,
-				D09B6012254A69E200B4E69A /* batata.jpeg */,
-				D09B5FFA254A64DB00B4E69A /* pipoca.jpeg */,
-				D09B5FFD254A64ED00B4E69A /* bala.jpeg */,
-				D09B600E254A694B00B4E69A /* cervejas.jpeg */,
-				D09B600A254A68F700B4E69A /* cerveja.jpeg */,
-				D00CA8AC254ACC8200F9E6DA /* piproca.jpeg */,
-				D00CA8B0254ACDC100F9E6DA /* latao.jpeg */,
 			);
 			path = exercise_UIAlertController;
 			sourceTree = "<group>";
