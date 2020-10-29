@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             textField.tag = 0
         })
         
-        //  Add to alert a textfield for the name
+        //  Add to alert a textfield for the quantity
         alertAddProduct.addTextField(configurationHandler: { textField in            textField.placeholder = "Quantidade"
             textField.tag = 1
         })
