@@ -84,7 +84,7 @@ extension ViewController : UITableViewDelegate{
         
         alert2.addAction(UIAlertAction(title: "Editar", style: .default, handler: { (action) in
             
-            let alert3 = UIAlertController(title: nil,
+            let alert3 = UIAlertController(title: "Editar Produto",
                                                  message: nil,
                                                  preferredStyle: .alert)
             alert3.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].name

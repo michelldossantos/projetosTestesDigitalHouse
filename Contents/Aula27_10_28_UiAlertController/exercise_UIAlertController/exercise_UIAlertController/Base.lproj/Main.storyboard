@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Puq-db-Gum">
-                                <rect key="frame" x="0.0" y="44" width="414" height="658"/>
+                                <rect key="frame" x="0.0" y="164" width="414" height="618"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductTableViewCell" rowHeight="85" id="X6g-xz-EwJ" customClass="ProductTableViewCell" customModule="exercise_UIAlertController" customModuleProvider="target">
@@ -65,10 +65,21 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7f-3J-05e">
-                                <rect key="frame" x="158" y="742" width="99" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lista de Compras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruB-OQ-RWf">
+                                <rect key="frame" x="103" y="96" width="213" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Adicionar Item"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7f-3J-05e">
+                                <rect key="frame" x="116" y="801" width="200" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Adicionar Item">
+                                    <color key="titleColor" red="0.85027825339999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="actionAddProduct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="khO-y1-iN3"/>
                                 </connections>
@@ -78,8 +89,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Puq-db-Gum" secondAttribute="trailing" id="0Fa-8z-kf6"/>
-                            <constraint firstItem="Puq-db-Gum" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OHf-v3-o6Q"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Puq-db-Gum" secondAttribute="bottom" constant="160" id="YAu-qW-lYB"/>
+                            <constraint firstItem="Puq-db-Gum" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="OHf-v3-o6Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Puq-db-Gum" secondAttribute="bottom" constant="80" id="YAu-qW-lYB"/>
                             <constraint firstItem="Puq-db-Gum" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="n28-MI-6OV"/>
                         </constraints>
                     </view>
@@ -93,6 +104,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
