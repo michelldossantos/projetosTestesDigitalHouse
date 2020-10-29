@@ -9,54 +9,71 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    // MARK: VARIABLES
     var nameProduct: String?
     var quantity: String?
+    var arrayProduct = [Product]()
+    
+    // MARK: Outlet
     @IBOutlet weak var productTableView: UITableView!
+    
+    // MARK: ACTION
     @IBAction func actionAddProduct(_ sender: Any) {
         
-       
         
-        let alert = UIAlertController(title: "Adicionar Produto",
-                                             message: "Nome",
-                                             preferredStyle: .alert)
-        alert.addTextField(configurationHandler: { textField in            textField.placeholder = "Nome Produto"
+        // MARK: CREATE ALERT ADD PRODUCT
+        let alertAddProduct = UIAlertController(title: "Adicionar Produto",
+                                                message: "Nome",
+                                                preferredStyle: .alert)
+        
+        //  Add to alert a textfield for the name
+        alertAddProduct.addTextField(configurationHandler: { textField in            textField.placeholder = "Nome Produto"
             textField.tag = 0
         })
         
-        alert.addTextField(configurationHandler: { textField in            textField.placeholder = "Quantidade"
+        //  Add to alert a textfield for the name
+        alertAddProduct.addTextField(configurationHandler: { textField in            textField.placeholder = "Quantidade"
             textField.tag = 1
         })
-       
-
         
-               alert.addAction(UIAlertAction(title: "Confirmar", style: .default, handler: { (action) in
-
+        
+        //  Add to alert a action(button confirm)
+        alertAddProduct.addAction(UIAlertAction(title: "Confirmar", style: .default, handler: { (action) in
+            
+            
+            // Checks the corresponding text fild by tag
+            
+            for textfield in alertAddProduct.textFields!{
                 
-                for textfield in alert.textFields!{
-                    
-                    
-                    if textfield.tag == 0{
-                        self.nameProduct =  textfield.text!
-                    }else{
-                        self.quantity = textfield.text!
-                    }
+                
+                if textfield.tag == 0{ // case tag 0 is NameProduct
+                    self.nameProduct =  textfield.text! // add value corresponding to variable
+                }else{ // is quantity
+                    self.quantity = textfield.text!
                 }
-                
-                self.arrayProduct.append(Product(name: self.nameProduct!, quantity: self.quantity!, imageName: "\(self.nameProduct!).jpeg".lowercased()))
-                self.productTableView.reloadData()
-                  
-               }))
-
-               alert.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
-                   print("Cancelar")
-               }))
-
-               present(alert, animated: true, completion: nil)
+            }
+            
+            // add the object to the array
+            self.arrayProduct.append(Product(name: self.nameProduct!, quantity: self.quantity!, imageName: "\(self.nameProduct!).jpeg".lowercased()))
+            
+            
+            self.productTableView.reloadData() // reload the tableview
+            
+        }))
+        
+        
+        //  Add to alert a action(button Cancel)
+        alertAddProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+            print("Cancelar")
+        }))
+        
+        present(alertAddProduct, animated: true, completion: nil) // open the alert
         
     }
     
-    var arrayProduct = [Product]()
     
+    // MARK: viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         productTableView.delegate = self
@@ -71,37 +88,41 @@ class ViewController: UIViewController {
         
         
     }
-
-
+    
+    
 }
 
 extension ViewController : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("clicou")
-        let alert2 = UIAlertController(title: "Adicionar Produto",
-                                             message: "Nome",
-                                             preferredStyle: .actionSheet)
         
-        alert2.addAction(UIAlertAction(title: "Editar", style: .default, handler: { (action) in
+        //MARK: Alert Edit/Delete
+        let alertEditOrDelete = UIAlertController(title: "Configurar",
+                                       message: nil,
+                                       preferredStyle: .actionSheet)
+        
+        alertEditOrDelete.addAction(UIAlertAction(title: "Editar", style: .default, handler: { (action) in
             
-            let alert3 = UIAlertController(title: "Editar Produto",
-                                                 message: nil,
-                                                 preferredStyle: .alert)
-            alert3.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].name
+            //MARK: Alert Edited
+            let AlertEditProduct = UIAlertController(title: nil,
+                                           message: nil,
+                                           preferredStyle: .alert)
+            
+            
+            AlertEditProduct.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].name
                 textField.tag = 0
             })
             
-            alert3.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].quantity
+            AlertEditProduct.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].quantity
                 textField.tag = 1
             })
             
-            alert3.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+            AlertEditProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
                 
             }))
             
-            alert3.addAction(UIAlertAction(title: "Salvar", style: .default, handler: { (action) in
+            AlertEditProduct.addAction(UIAlertAction(title: "Salvar", style: .default, handler: { (action) in
                 
-                for textfield in alert3.textFields!{
+                for textfield in AlertEditProduct.textFields!{
                     
                     
                     if textfield.tag == 0{
@@ -117,25 +138,25 @@ extension ViewController : UITableViewDelegate{
                 
             }))
             
-            self.present(alert3, animated: true, completion: nil)
+            self.present(AlertEditProduct, animated: true, completion: nil)
             
-           
-              
-           
+            
+            
+            
         }))
         
-        alert2.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+        alertEditOrDelete.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
             print("Cancelar")
             
-           
+            
         }))
         
-        alert2.addAction(UIAlertAction(title: "Excluir", style: .destructive, handler: { (action) in
+        alertEditOrDelete.addAction(UIAlertAction(title: "Excluir", style: .destructive, handler: { (action) in
             self.arrayProduct.remove(at: indexPath.row)
             self.productTableView.reloadData()
-         
+            
         }))
-        present(alert2, animated: true, completion: nil)
+        present(alertEditOrDelete, animated: true, completion: nil)
         
     }
     
