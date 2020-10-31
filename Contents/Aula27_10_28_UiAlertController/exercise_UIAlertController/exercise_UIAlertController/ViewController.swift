@@ -21,63 +21,20 @@ class ViewController: UIViewController {
     // MARK: ACTION
     @IBAction func actionAddProduct(_ sender: Any) {
         
-        
-        // MARK: CREATE ALERT ADD PRODUCT
-        let alertAddProduct = UIAlertController(title: "Adicionar Produto",
-                                                message: "Nome",
-                                                preferredStyle: .alert)
-        
-        //  Add to alert a textfield for the name
-        alertAddProduct.addTextField(configurationHandler: { textField in            textField.placeholder = "Nome Produto"
-            textField.tag = 0
-        })
-        
-        //  Add to alert a textfield for the quantity
-        alertAddProduct.addTextField(configurationHandler: { textField in            textField.placeholder = "Quantidade"
-            textField.tag = 1
-        })
-        
-        
-        //  Add to alert a action(button confirm)
-        alertAddProduct.addAction(UIAlertAction(title: "Confirmar", style: .default, handler: { (action) in
-            
-            
-            // Checks the corresponding text fild by tag
-            
-            for textfield in alertAddProduct.textFields!{
-                
-                
-                if textfield.tag == 0{ // case tag 0 is NameProduct
-                    self.nameProduct =  textfield.text! // add value corresponding to variable
-                }else{ // is quantity
-                    self.quantity = textfield.text!
-                }
-            }
-            
-            // add the object to the array
-            self.arrayProduct.append(Product(name: self.nameProduct!, quantity: self.quantity!, imageName: "\(self.nameProduct!).jpeg".lowercased()))
-            
-            
-            self.productTableView.reloadData() // reload the tableview
-            
-        }))
-        
-        
-        //  Add to alert a action(button Cancel)
-        alertAddProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
-            print("Cancelar")
-        }))
-        
-        present(alertAddProduct, animated: true, completion: nil) // open the alert
-        
+        openAlertEditOrCreate(product: nil)
+
     }
     
     
     // MARK: viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         productTableView.delegate = self
         productTableView.dataSource = self
+        
+        
         
         arrayProduct.append(Product(name: "Pipoca", quantity: "3", imageName: "pipoca.jpeg"))
         
@@ -94,73 +51,13 @@ class ViewController: UIViewController {
 
 extension ViewController : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        //MARK: Alert Edit/Delete
-        let alertEditOrDelete = UIAlertController(title: "Configurar",
-                                       message: nil,
-                                       preferredStyle: .actionSheet)
-        
-        alertEditOrDelete.addAction(UIAlertAction(title: "Editar", style: .default, handler: { (action) in
-            
-            //MARK: Alert Edited
-            let AlertEditProduct = UIAlertController(title: nil,
-                                           message: nil,
-                                           preferredStyle: .alert)
-            
-            
-            AlertEditProduct.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].name
-                textField.tag = 0
-            })
-            
-            AlertEditProduct.addTextField(configurationHandler: { textField in            textField.text = self.arrayProduct[indexPath.row].quantity
-                textField.tag = 1
-            })
-            
-            AlertEditProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
-                
-            }))
-            
-            AlertEditProduct.addAction(UIAlertAction(title: "Salvar", style: .default, handler: { (action) in
-                
-                for textfield in AlertEditProduct.textFields!{
-                    
-                    
-                    if textfield.tag == 0{
-                        self.nameProduct =  textfield.text!
-                    }else{
-                        self.quantity = textfield.text!
-                    }
-                }
-                
-                self.arrayProduct[indexPath.row] = Product(name: self.nameProduct!, quantity: self.quantity!, imageName: "\(self.nameProduct!).jpeg".lowercased())
-                self.productTableView.reloadData()
-                
-                
-            }))
-            
-            self.present(AlertEditProduct, animated: true, completion: nil)
-            
-            
-            
-            
-        }))
-        
-        alertEditOrDelete.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
-            print("Cancelar")
-            
-            
-        }))
-        
-        alertEditOrDelete.addAction(UIAlertAction(title: "Excluir", style: .destructive, handler: { (action) in
-            self.arrayProduct.remove(at: indexPath.row)
-            self.productTableView.reloadData()
-            
-        }))
-        present(alertEditOrDelete, animated: true, completion: nil)
-        
-    }
+      
+        openAlertConfig(product: arrayProduct[indexPath.row])
     
 }
+    
+}
+
 extension ViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayProduct.count
@@ -174,3 +71,122 @@ extension ViewController : UITableViewDataSource{
     
     
 }
+
+extension ViewController{
+
+    func openAlertConfig(product: Product){
+        
+       
+        
+        let alertEditOrDelete = UIAlertController(title: "Configurar",
+                                       message: nil,
+                                       preferredStyle: .actionSheet)
+        
+        
+        alertEditOrDelete.addAction(UIAlertAction(title: "Editar", style: .default, handler: { (action) in
+            
+            self.openAlertEditOrCreate(product: product)
+            
+        }))
+        
+        alertEditOrDelete.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+          
+        }))
+        
+        alertEditOrDelete.addAction(UIAlertAction(title: "Excluir", style: .destructive, handler: { (action) in
+            
+            let indexItem = self.arrayProduct.firstIndex { (object) -> Bool in
+                return object.name == product.name
+            }
+            
+            
+            self.arrayProduct.remove(at: indexItem!)
+            self.productTableView.reloadData()
+            
+        }))
+        present(alertEditOrDelete, animated: true, completion: nil)
+        
+    }
+        
+    
+    
+    func openAlertEditOrCreate(product: Product?){
+        
+        
+        
+        var labelTextName = "Nome Produto"
+        var labelTextQuantity = "Quantidade"
+        
+        // Index product in array
+        let indexItem = self.arrayProduct.firstIndex { (object) -> Bool in
+            return object.name == product?.name
+        }
+        
+        
+        if product != nil{
+            
+            labelTextName = self.arrayProduct[indexItem!].name
+            labelTextQuantity = self.arrayProduct[indexItem!].quantity
+            
+          
+        }
+        
+        // init  create alert
+        let AlertEditProduct = UIAlertController(title: nil,
+                                       message: nil,
+                                       preferredStyle: .alert)
+        
+
+        // ADD textFields
+        AlertEditProduct.addTextField(configurationHandler: { textField in
+
+            
+            
+            textField.text = labelTextName
+            textField.tag = 0
+        })
+
+        AlertEditProduct.addTextField(configurationHandler: { textField in            textField.text = labelTextQuantity
+            textField.tag = 1
+        })
+        
+        
+        // Add Actions
+        
+        AlertEditProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+
+        }))
+
+        AlertEditProduct.addAction(UIAlertAction(title: "Salvar", style: .default, handler: { (action) in
+
+            
+            for textfield in AlertEditProduct.textFields!{
+
+
+                if textfield.tag == 0{
+                    self.nameProduct =  textfield.text!
+                }else{
+                    self.quantity = textfield.text!
+                }
+            }
+            
+            if product != nil {
+                self.arrayProduct[indexItem!] = Product(name: self.nameProduct!, quantity: self.quantity!, imageName: "\(self.nameProduct!).jpeg".lowercased())
+            }else{
+                
+                self.arrayProduct.append(Product(name: self.nameProduct!, quantity: self.quantity!, imageName: "\(self.nameProduct!).jpeg".lowercased()))
+            }
+            
+            self.productTableView.reloadData()
+
+
+        }))
+
+        self.present(AlertEditProduct, animated: true, completion: nil)
+
+
+    }
+
+}
+
+
