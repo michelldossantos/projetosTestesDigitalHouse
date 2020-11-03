@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     @IBAction func actionCreateProduct(_ sender: UIButton) {
     }
     
-    var product = [Product]()
+    var arrayProduct = [Product]()
+    var arrayProductCompleted = [Product]()
+    var arrayProductOpen = [Product]()
     
     var arrayProducts = [Product]()
     override func viewDidLoad() {
@@ -46,23 +48,26 @@ extension ViewController : UITableViewDelegate{
 
 extension ViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return product.count
+        filter()
+        if section == 0 {
+            return arrayProductCompleted.count
+        }else{
+            return arrayProductOpen.count
+        }
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if indexPath.section == 0{
-            product.append(contentsOf: arrayProducts.filter { (x) -> Bool in
-                
-                return  x.checked == true
-                
-                })
-        }
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductTableViewCell", for: indexPath) as! ProductTableViewCell
         
         
+        if indexPath.section == 0 {
+            cell.setup(product: arrayProductCompleted[indexPath.row])
+        }else{
+            cell.setup(product:  arrayProductOpen[indexPath.row])
+        }
         
-        cell.setup(product: product[indexPath.row])
         
         return cell
     }
@@ -84,4 +89,21 @@ extension ViewController : UITableViewDataSource{
     
     
 }
+
+extension ViewController{
+    
+    func filter(){
+        
+//
+        arrayProductCompleted =  arrayProducts.filter ({ (item) -> Bool in
+    item.checked == true})
+        arrayProductOpen =  arrayProducts.filter ({ (item) -> Bool in
+    item.checked == false})
+            
+
+           
+    
+    }
+}
+
 
