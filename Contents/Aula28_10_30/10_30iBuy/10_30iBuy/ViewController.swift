@@ -7,11 +7,19 @@
 
 import UIKit
 
+enum status: Int {
+    case open = 0
+    case complete = 1
+        
+}
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableViewProducts: UITableView!
     
     @IBAction func actionCreateProduct(_ sender: UIButton) {
+        alertCreateItem(product: nil)
+        
     }
     
     var arrayProduct = [Product]()
@@ -41,7 +49,20 @@ class ViewController: UIViewController {
 
 extension ViewController : UITableViewDelegate{
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let product:Product?
+       
+        
+        if indexPath.section == 1{
+            product = arrayProductOpen[indexPath.row]
+        }else{
+            product = arrayProductCompleted [indexPath.row]
+        }
+        
+        alertCreateItem(product: product!)
+        
+        
+    }
     
     
 }
@@ -99,10 +120,43 @@ extension ViewController{
     item.checked == true})
         arrayProductOpen =  arrayProducts.filter ({ (item) -> Bool in
     item.checked == false})
-            
-
-           
+  
+    }
     
+    func createItem(product: Product){
+        arrayProductOpen.append(product)
+        
+        print(arrayProductOpen.count)
+    }
+    
+    func alertCreateItem(product: Product?){
+       
+        
+        let alertCreateProduct = UIAlertController(title: "Criar",
+                                                 message: "Digite o nome do item",
+                                                 preferredStyle: .alert)
+        
+        alertCreateProduct.addTextField(configurationHandler: { textField in
+            textField.placeholder = "Ex: Maça"
+            
+            
+        })
+        
+        alertCreateProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+        }))
+        
+        alertCreateProduct.addAction(UIAlertAction(title: "Salvar", style: .default, handler: { (action) in
+            if product == nil{
+                self.createItem(product: Product(name: "Maça", checked: false))
+            }else{
+                self.createItem(product: product!)
+            }
+            
+            
+        }))
+        
+        self.present(alertCreateProduct, animated: true, completion: nil)
+        
     }
 }
 
