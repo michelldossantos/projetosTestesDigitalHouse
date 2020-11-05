@@ -67,6 +67,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUi-ME-DXg">
                                 <rect key="frame" x="359" y="82" width="72" height="22"/>
                                 <state key="normal" title="Button" image="plus" catalog="system"/>
+                                <connections>
+                                    <action selector="actionAddItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JNA-F3-2Qy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

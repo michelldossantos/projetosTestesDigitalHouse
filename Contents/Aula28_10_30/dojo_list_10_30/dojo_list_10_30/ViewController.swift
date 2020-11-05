@@ -11,6 +11,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var searchBarItems: UISearchBar!
   @IBOutlet weak var tableViewItems: UITableView!
     
+    @IBAction func actionAddItem(_ sender: Any) {
+        let alert =  createAlert()
+        present(alert, animated: true, completion: nil)
+    }
     var arryItems = [Item]()
     
     
@@ -31,57 +35,7 @@ class ViewController: UIViewController {
 
 }
 
-//MARK: Delegate
 
-extension ViewController: UITableViewDelegate{
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        openActionSheet(item: arryItems[indexPath.row])
-        
-        
-       
-        
-
-        
-    }
-    
-    
-    
-    
-}
-
-
-
-extension ViewController: UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arryItems.count
-       
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemTableViewCell", for: indexPath) as! ItemTableViewCell
-        
-        cell.setup(item: arryItems[indexPath.row])
-        
-        
-        
-        return cell
-        
-    }
-   
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if section == 0{
-            return "Aberto"
-        }else{
-            return "Completo"
-        }
-        
-    }
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
-    }
-}
 
 
 
@@ -187,4 +141,57 @@ extension ViewController{
 //        return index
     }
     
+   private func alertCreateItem() -> UIAlertController{
+       
+        
+        let alertCreateProduct = UIAlertController(title: "Criar",
+                                                 message: "Digite o nome do item",
+                                                 preferredStyle: .alert)
+        
+        alertCreateProduct.addTextField(configurationHandler: { textField in
+            textField.placeholder = "Ex: Maça"
+            
+            
+        })
+        
+        alertCreateProduct.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: { (action) in
+        }))
+        
+        alertCreateProduct.addAction(UIAlertAction(title: "Salvar", style: .default, handler: { (action) in
+            
+            
+        }))
+        
+        return alertCreateProduct
+    
 }
+    
+    
+    func saveItem(name: String){
+        self.arryItems.append(Item(name: name, checked: true))
+        tableViewItems.reloadData()
+    }
+    
+    private func createAlert() -> UIAlertController {
+            let alert = UIAlertController(title: "Insira", message: "Insira o novo item", preferredStyle: .alert)
+
+            //Inserindo TextField
+            alert.addTextField(configurationHandler: { textFild in textFild.placeholder = "Novo Item"})
+
+            let cancelButton = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+
+            //Recebendo dados da TextField
+            let addButton = UIAlertAction(title: "Ok", style: .default) { (action) in
+                if let textField = alert.textFields?.first, let text = textField.text {
+                    self.saveItem(name:text)
+                    
+                }
+            }
+            alert.addAction(cancelButton)
+            alert.addAction(addButton)
+            
+            return alert
+        }
+}
+
+
