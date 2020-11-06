@@ -79,15 +79,16 @@ extension ViewController{
         
     }
     
+    // todo
     func deleteItem(product: Product) {
-        let indexItem = self.arrayProductsAll.contains { (item) -> Bool in
-            arr
-        }
+        let indexItem = self.arrayProductsAll.firstIndex { (object) -> Bool in
+            object.name == product.name
+            
             
             
            
     }
-        arrayProductsAll[indexItem!].name = nameEdited
+        arrayProductsAll.remove(at: indexItem!)
         tableViewProducts.reloadData()
         
     }
