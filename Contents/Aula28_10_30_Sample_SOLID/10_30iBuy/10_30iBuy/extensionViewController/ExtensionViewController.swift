@@ -11,16 +11,15 @@ import UIKit
 extension ViewController : UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let product:Product?
+
         let product: Product?
-//
+
         if indexPath.section == 0{
             product = arrayProductOpen[indexPath.row]
         }else{
             product = arrayProductCompleted [indexPath.row]
         }
-//
-//        alertCreateItem(product: product!)
+
         createAlertOption(product: product!)
         
         
@@ -72,5 +71,12 @@ extension ViewController : UITableViewDataSource{
         }
     }
     
+    
+}
+
+extension ViewController: UISearchBarDelegate{
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
+        filterSearchBar(search: searchText)
+    }
     
 }

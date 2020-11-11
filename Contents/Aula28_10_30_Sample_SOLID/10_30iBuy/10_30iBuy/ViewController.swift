@@ -15,6 +15,7 @@ enum status: Int {
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var searchProduct: UISearchBar!
     @IBOutlet weak var tableViewProducts: UITableView!
     
     @IBAction func actionCreateProduct(_ sender: UIButton) {
@@ -26,12 +27,14 @@ class ViewController: UIViewController {
     var arrayProductCompleted = [Product]()
     var arrayProductOpen = [Product]()
     var arrayProductsAll = [Product]()
+    var arrayProductFilterSearchBar = [Product]()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewProducts.delegate = self
         tableViewProducts.dataSource = self
+        searchProduct.delegate = self
         
         
         arrayProductsAll.append(Product(name: "Banana", checked: false))
@@ -51,6 +54,13 @@ class ViewController: UIViewController {
 
 
 extension ViewController{
+    
+    func filterSearchBar(search: String){
+        arrayProductFilterSearchBar = arrayProductsAll.filter({ (item) -> Bool in
+            item.name.contains(search)
+        })
+        print(arrayProductFilterSearchBar.count)
+    }
     
     func filter(){ //filters whether it is open or closed and adds to the respective array
   
@@ -86,7 +96,7 @@ extension ViewController{
                 item.name == product.name
                 }
         
-        arrayProductsAll.remove(at: indexProduct!) 
+        arrayProductsAll.remove(at: indexProduct!)
         tableViewProducts.reloadData()
         
     }
@@ -134,7 +144,7 @@ extension ViewController{
         
     }
     
-    func status(product:Product){
+    func changeStatusCompletedOpen(product:Product){
         if product.checked{
             product.checked = false
         }else{
@@ -160,7 +170,7 @@ extension ViewController{
         }))
         
         alertCreateProduct.addAction(UIAlertAction(title: "Marcar como concluído", style: .default, handler: {  (action) in
-            self.status(product: product)
+            self.changeStatusCompletedOpen(product: product)
         }))
         
         
