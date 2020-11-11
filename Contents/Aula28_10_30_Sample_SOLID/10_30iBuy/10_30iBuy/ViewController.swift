@@ -52,11 +52,11 @@ class ViewController: UIViewController {
 
 extension ViewController{
     
-    func filter(){
-        
-
+    func filter(){ //filters whether it is open or closed and adds to the respective array
+  
         arrayProductCompleted =  arrayProductsAll.filter ({ (item) -> Bool in
     item.checked == true})
+        
         arrayProductOpen =  arrayProductsAll.filter ({ (item) -> Bool in
     item.checked == false})
   
@@ -79,16 +79,14 @@ extension ViewController{
         
     }
     
-    // todo
+    
     func deleteItem(product: Product) {
-        let indexItem = self.arrayProductsAll.firstIndex { (object) -> Bool in
-            object.name == product.name
-            
-            
-            
-           
-    }
-        arrayProductsAll.remove(at: indexItem!)
+        
+               let indexProduct = arrayProductsAll.firstIndex { (item) -> Bool in
+                item.name == product.name
+                }
+        
+        arrayProductsAll.remove(at: indexProduct!) 
         tableViewProducts.reloadData()
         
     }
@@ -136,6 +134,16 @@ extension ViewController{
         
     }
     
+    func status(product:Product){
+        if product.checked{
+            product.checked = false
+        }else{
+            product.checked = true
+        }
+        
+        tableViewProducts.reloadData()
+    }
+    
     func createAlertOption(product:Product) {
         let alertCreateProduct = UIAlertController(title: nil,
                                                  message: nil,
@@ -148,9 +156,11 @@ extension ViewController{
         }))
         
         alertCreateProduct.addAction(UIAlertAction(title: "Excluir", style: .destructive, handler: {  (action) in
+            self.deleteItem(product: product)
         }))
         
         alertCreateProduct.addAction(UIAlertAction(title: "Marcar como concluído", style: .default, handler: {  (action) in
+            self.status(product: product)
         }))
         
         
