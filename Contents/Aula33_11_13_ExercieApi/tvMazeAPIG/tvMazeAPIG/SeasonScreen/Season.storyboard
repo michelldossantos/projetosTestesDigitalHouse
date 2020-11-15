@@ -27,20 +27,43 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="114"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xg3-kb-xlv">
-                                                    <rect key="frame" x="153" y="47" width="42" height="21"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zip-Jt-iLX">
+                                                    <rect key="frame" x="11" y="11" width="110" height="92"/>
+                                                    <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="92" id="IU0-rP-sQB"/>
+                                                        <constraint firstAttribute="width" constant="110" id="zyq-Sx-XKN"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXs-ka-Hc4">
+                                                    <rect key="frame" x="129" y="74" width="41.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jrz-cc-FPV">
+                                                    <rect key="frame" x="129" y="18" width="41.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Xg3-kb-xlv" firstAttribute="leading" secondItem="4QW-5m-a5N" secondAttribute="leadingMargin" constant="133" id="EOs-8Q-kfd"/>
-                                                <constraint firstItem="Xg3-kb-xlv" firstAttribute="top" secondItem="4QW-5m-a5N" secondAttribute="topMargin" constant="36" id="SZ3-Zl-CLR"/>
+                                                <constraint firstItem="ZXs-ka-Hc4" firstAttribute="leading" secondItem="zip-Jt-iLX" secondAttribute="trailing" constant="8" id="N9f-eH-XEc"/>
+                                                <constraint firstItem="ZXs-ka-Hc4" firstAttribute="top" secondItem="Jrz-cc-FPV" secondAttribute="bottom" constant="35" id="RCi-eB-0mW"/>
+                                                <constraint firstItem="Jrz-cc-FPV" firstAttribute="leading" secondItem="zip-Jt-iLX" secondAttribute="trailing" constant="8" symbolic="YES" id="Ubg-U5-UMB"/>
+                                                <constraint firstItem="zip-Jt-iLX" firstAttribute="top" secondItem="4QW-5m-a5N" secondAttribute="top" constant="11" id="cYX-Ea-8em"/>
+                                                <constraint firstItem="Jrz-cc-FPV" firstAttribute="top" secondItem="4QW-5m-a5N" secondAttribute="topMargin" constant="7" id="cZR-h5-HoY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ZXs-ka-Hc4" secondAttribute="bottom" constant="8" id="lpW-Xh-Yje"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ZXs-ka-Hc4" secondAttribute="bottom" constant="8" id="mSM-yb-NdE"/>
+                                                <constraint firstItem="ZXs-ka-Hc4" firstAttribute="leading" secondItem="zip-Jt-iLX" secondAttribute="trailing" constant="8" symbolic="YES" id="rc3-m8-0X1"/>
+                                                <constraint firstItem="zip-Jt-iLX" firstAttribute="leading" secondItem="4QW-5m-a5N" secondAttribute="leading" constant="11" id="zgz-1d-3FG"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="labelname" destination="Xg3-kb-xlv" id="rgi-A6-CRo"/>
+                                            <outlet property="imageSeason" destination="zip-Jt-iLX" id="VfM-uL-RMz"/>
+                                            <outlet property="labelNameSeason" destination="Jrz-cc-FPV" id="fZ1-LB-Q89"/>
+                                            <outlet property="labelepisodeOrder" destination="ZXs-ka-Hc4" id="mh5-7g-NSI"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

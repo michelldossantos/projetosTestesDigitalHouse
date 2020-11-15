@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gEu-tO-I2e">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Episodes View Controller-->
+        <scene sceneID="tu9-ck-jL9">
+            <objects>
+                <viewController id="gEu-tO-I2e" customClass="EpisodesViewController" customModule="tvMazeAPIG" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rcg-h0-VqX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wBe-Xv-j5B">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EpisodesTableViewCell" rowHeight="128" id="jow-J6-69h" customClass="EpisodesTableViewCell" customModule="tvMazeAPIG" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jow-J6-69h" id="BOR-tU-iZ4">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOV-TI-jK5">
+                                                    <rect key="frame" x="58" y="79" width="298" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05q-FJ-G5w">
+                                                    <rect key="frame" x="58" y="30" width="298" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="MOV-TI-jK5" secondAttribute="trailing" constant="38" id="C3i-At-tTe"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="MOV-TI-jK5" secondAttribute="bottom" constant="17.5" id="ChX-hk-sLe"/>
+                                                <constraint firstItem="MOV-TI-jK5" firstAttribute="top" secondItem="05q-FJ-G5w" secondAttribute="bottom" constant="28" id="HTv-hh-uW6"/>
+                                                <constraint firstItem="05q-FJ-G5w" firstAttribute="top" secondItem="BOR-tU-iZ4" secondAttribute="topMargin" constant="19" id="gPH-Yo-cwq"/>
+                                                <constraint firstItem="05q-FJ-G5w" firstAttribute="leading" secondItem="BOR-tU-iZ4" secondAttribute="leadingMargin" constant="38" id="lRq-w5-BN2"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="05q-FJ-G5w" secondAttribute="trailing" constant="38" id="pPu-vC-Bgz"/>
+                                                <constraint firstItem="MOV-TI-jK5" firstAttribute="leading" secondItem="BOR-tU-iZ4" secondAttribute="leadingMargin" constant="38" id="rqc-lL-HFx"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="labelDescription" destination="MOV-TI-jK5" id="P2l-WN-HrR"/>
+                                            <outlet property="labelEpisodeName" destination="05q-FJ-G5w" id="clV-wb-gJm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LPX-C8-Jro"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LPX-C8-Jro" firstAttribute="bottom" secondItem="wBe-Xv-j5B" secondAttribute="bottom" id="M7c-Rq-cxW"/>
+                            <constraint firstItem="wBe-Xv-j5B" firstAttribute="top" secondItem="LPX-C8-Jro" secondAttribute="top" id="d3Y-yU-YNn"/>
+                            <constraint firstItem="LPX-C8-Jro" firstAttribute="trailing" secondItem="wBe-Xv-j5B" secondAttribute="trailing" id="dY1-YV-x1H"/>
+                            <constraint firstItem="wBe-Xv-j5B" firstAttribute="leading" secondItem="LPX-C8-Jro" secondAttribute="leading" id="fnP-0D-yUB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewEpisodes" destination="wBe-Xv-j5B" id="Aq8-bz-10r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cip-5I-fMr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173.91304347826087" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

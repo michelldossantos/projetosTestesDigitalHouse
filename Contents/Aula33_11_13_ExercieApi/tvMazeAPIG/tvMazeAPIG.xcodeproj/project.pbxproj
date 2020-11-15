@@ -35,6 +35,9 @@
 		D06BA2B0255F897000F787A4 /* SeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BA2AF255F897000F787A4 /* SeasonViewController.swift */; };
 		D06BA2B3255F898000F787A4 /* Season.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06BA2B2255F898000F787A4 /* Season.storyboard */; };
 		D06BA2BA255F8A1500F787A4 /* SeasonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BA2B9255F8A1500F787A4 /* SeasonTableViewCell.swift */; };
+		D0A66E332560C37700B4C8A8 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A66E322560C37700B4C8A8 /* EpisodesViewController.swift */; };
+		D0A66E372560C38500B4C8A8 /* Episodes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A66E362560C38500B4C8A8 /* Episodes.storyboard */; };
+		D0A66E3A2560C50D00B4C8A8 /* EpisodesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A66E392560C50D00B4C8A8 /* EpisodesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		D06BA2AF255F897000F787A4 /* SeasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonViewController.swift; sourceTree = "<group>"; };
 		D06BA2B2255F898000F787A4 /* Season.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Season.storyboard; sourceTree = "<group>"; };
 		D06BA2B9255F8A1500F787A4 /* SeasonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonTableViewCell.swift; sourceTree = "<group>"; };
+		D0A66E322560C37700B4C8A8 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		D0A66E362560C38500B4C8A8 /* Episodes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Episodes.storyboard; sourceTree = "<group>"; };
+		D0A66E392560C50D00B4C8A8 /* EpisodesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewCell.swift; sourceTree = "<group>"; };
 		DA50F6E49B2A026026A61B48 /* Pods-tvMazeAPIG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvMazeAPIG.debug.xcconfig"; path = "Target Support Files/Pods-tvMazeAPIG/Pods-tvMazeAPIG.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +128,7 @@
 		D06BA264255F849E00F787A4 /* tvMazeAPIG */ = {
 			isa = PBXGroup;
 			children = (
+				D0A66E312560C35100B4C8A8 /* EpisodesScreen */,
 				D06BA2AE255F893100F787A4 /* SeasonScreen */,
 				D06BA2AD255F891100F787A4 /* MainScreen */,
 				D06BA265255F849E00F787A4 /* AppDelegate.swift */,
@@ -180,6 +187,7 @@
 			children = (
 				D06BA2AA255F879300F787A4 /* ShowsTableViewCell.swift */,
 				D06BA2B9255F8A1500F787A4 /* SeasonTableViewCell.swift */,
+				D0A66E392560C50D00B4C8A8 /* EpisodesTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -200,6 +208,15 @@
 				D06BA2B2255F898000F787A4 /* Season.storyboard */,
 			);
 			path = SeasonScreen;
+			sourceTree = "<group>";
+		};
+		D0A66E312560C35100B4C8A8 /* EpisodesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D0A66E322560C37700B4C8A8 /* EpisodesViewController.swift */,
+				D0A66E362560C38500B4C8A8 /* Episodes.storyboard */,
+			);
+			path = EpisodesScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A66E372560C38500B4C8A8 /* Episodes.storyboard in Resources */,
 				D06BA2A7255F872300F787A4 /* Main.storyboard in Resources */,
 				D06BA2B3255F898000F787A4 /* Season.storyboard in Resources */,
 				D06BA272255F84A300F787A4 /* LaunchScreen.storyboard in Resources */,
@@ -324,6 +342,7 @@
 				D06BA293255F855300F787A4 /* Shows_Network.swift in Sources */,
 				D06BA28C255F855300F787A4 /* Shows_Country.swift in Sources */,
 				D06BA28E255F855300F787A4 /* Shows_Previousepisode.swift in Sources */,
+				D0A66E3A2560C50D00B4C8A8 /* EpisodesTableViewCell.swift in Sources */,
 				D06BA291255F855300F787A4 /* Shows_RootClass.swift in Sources */,
 				D06BA28D255F855300F787A4 /* Shows_Link.swift in Sources */,
 				D06BA266255F849E00F787A4 /* AppDelegate.swift in Sources */,
@@ -335,6 +354,7 @@
 				D06BA268255F849E00F787A4 /* SceneDelegate.swift in Sources */,
 				D06BA290255F855300F787A4 /* Shows_Schedule.swift in Sources */,
 				D06BA292255F855300F787A4 /* Shows_Image.swift in Sources */,
+				D0A66E332560C37700B4C8A8 /* EpisodesViewController.swift in Sources */,
 				D06BA2BA255F8A1500F787A4 /* SeasonTableViewCell.swift in Sources */,
 				D06BA29D255F855E00F787A4 /* Season_Link.swift in Sources */,
 				D06BA2B0255F897000F787A4 /* SeasonViewController.swift in Sources */,

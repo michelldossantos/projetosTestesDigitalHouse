@@ -81,7 +81,10 @@ extension ViewController: UITableViewDelegate {
         if let showDetails = UIStoryboard(name: "Season", bundle: nil).instantiateInitialViewController() as? SeasonViewController {
 //                    showDetails.show = arrayShows[indexPath.row]
 //                    navigationController?.pushViewController(showDetails, animated: true)
-            showDetails.arrayteste = ["23","22","55"]
+            showDetails.idShow = arrayShows[indexPath.row].id
+            showDetails.nameSeason = arrayShows[indexPath.row].name
+            showDetails.linkImage = String(arrayShows[indexPath.row].image.original).replacingOccurrences(of: "http", with: "https")
+            
                 present(showDetails, animated: true, completion: nil)
                 }
     }

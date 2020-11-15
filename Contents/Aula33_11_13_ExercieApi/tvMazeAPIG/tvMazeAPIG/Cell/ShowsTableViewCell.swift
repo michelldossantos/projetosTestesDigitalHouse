@@ -12,6 +12,7 @@ class ShowsTableViewCell: UITableViewCell {
     @IBOutlet weak var imageShow: UIImageView!
     @IBOutlet weak var labelShow: UILabel!
     
+    
     func setup(show: Shows_RootClass) {
         let link = String(show.image.original).replacingOccurrences(of: "http", with: "https")
         let url = URL(string: link)
