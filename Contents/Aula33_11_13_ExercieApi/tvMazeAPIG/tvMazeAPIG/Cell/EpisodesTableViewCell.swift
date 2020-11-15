@@ -16,12 +16,22 @@ class EpisodesTableViewCell: UITableViewCell {
     
     
     func setup(episode:Episodes_Episodes){
-        labelEpisodeName.text = " Episódio \(numberOfEpisode + 1 )  -> \(String(episode.name))"
+        if let nameEpisode = episode.name {
+            labelEpisodeName.text = " Episódio \(numberOfEpisode + 1 )  -> \(nameEpisode)"
+        }else{
+            labelEpisodeName.text = " Episódio \(numberOfEpisode + 1 )  -> Sem Nome!"
+        }
+        
         
         if let summary = episode.summary{
-            let sumaryedit1 = summary.replacingOccurrences(of: "<p>" , with: " ")
-            let sumaryedit2 = sumaryedit1.replacingOccurrences(of: "</p>" , with: " ")
-            labelDescription.text = sumaryedit2
+            if summary != ""{
+                let sumaryedit1 = summary.replacingOccurrences(of: "<p>" , with: " ")
+                let sumaryedit2 = sumaryedit1.replacingOccurrences(of: "</p>" , with: " ")
+                labelDescription.text = sumaryedit2
+            }else{
+                labelDescription.text = "Sem descrição"
+            }
+            
         }else{
             labelDescription.text = "Sem descrição"
         }
