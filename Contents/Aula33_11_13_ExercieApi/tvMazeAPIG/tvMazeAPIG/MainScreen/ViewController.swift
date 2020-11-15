@@ -80,12 +80,13 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let showDetails = UIStoryboard(name: "Season", bundle: nil).instantiateInitialViewController() as? SeasonViewController {
 //                    showDetails.show = arrayShows[indexPath.row]
-//                    navigationController?.pushViewController(showDetails, animated: true)
+//
             showDetails.idShow = arrayShows[indexPath.row].id
             showDetails.nameSeason = arrayShows[indexPath.row].name
             showDetails.linkImage = String(arrayShows[indexPath.row].image.original).replacingOccurrences(of: "http", with: "https")
-            
-                present(showDetails, animated: true, completion: nil)
+                
+                navigationController?.pushViewController(showDetails, animated: true)
+//                present(showDetails, animated: true, completion: nil)
                 }
     }
 
