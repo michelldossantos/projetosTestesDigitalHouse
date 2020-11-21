@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "296052B7-54A2-4EFE-AA00-10171E537537"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C76A225-1034-460D-9C82-2762C26324D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fipev2/Controllers/YearController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "loadData(onComplete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C76A225-1034-460D-9C82-2762C26324D6 - 487e3602f69ac6bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fipev2.YearController.loadData(onComplete: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Fipev2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michel/Documents/Development/Digital%20House/projetosTestesDigitalHouse/Contents/Aula35_11_18_ChallengeFipe/Fipev2/Fipev2/Controllers/YearController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "0C76A225-1034-460D-9C82-2762C26324D6 - dc5a4bff135bae50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in Fipev2.YearController.loadData(onComplete: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Fipev2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michel/Documents/Development/Digital%20House/projetosTestesDigitalHouse/Contents/Aula35_11_18_ChallengeFipe/Fipev2/Fipev2/Controllers/YearController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "182">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB7039FE-1631-448E-A17F-1EDAFBDF5CDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fipev2/Controllers/YearController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadData(onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
