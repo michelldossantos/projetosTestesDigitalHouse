@@ -54,33 +54,10 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate {
 
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        tableView.deselectRow(at: indexPath, animated: true)
-//
-//        let show = arrayShows[indexPath.row]
-//        print (show)
-//
-//        if let viewControllerDetail = UIStoryboard(name: "Season", bundle: nil).instantiateInitialViewController() as? SeasonViewController {
-//
-////            viewControllerDetail.idShow = show.id
-//
-//            // Navigation Controller
-////            navigationController?.pushViewController(viewControllerDetail, animated: true)
-//            present(viewControllerDetail, animated: true, completion: nil)
-//
-//
-//
-//            // Abre a tela MODAL
-//            //viewControllerDetail.employee = arrayPeople[indexPath.row]
-//
-//        }
-//
-//    }
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let showDetails = UIStoryboard(name: "Season", bundle: nil).instantiateInitialViewController() as? SeasonViewController {
-//                    showDetails.show = arrayShows[indexPath.row]
-//
+
             showDetails.idShow = arrayShows[indexPath.row].id
             showDetails.nameSeason = arrayShows[indexPath.row].name
             showDetails.linkImage = String(arrayShows[indexPath.row].image.original).replacingOccurrences(of: "http", with: "https")

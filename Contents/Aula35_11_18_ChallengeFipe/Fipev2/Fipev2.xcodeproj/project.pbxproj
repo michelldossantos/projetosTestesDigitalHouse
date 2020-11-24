@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C33A6D1DECF8ADB2A33FAEB4 /* Pods_Fipev2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0F2D8993BF3E3A9327763D /* Pods_Fipev2.framework */; };
+		D017DBAC256BF9A2008B25EF /* Fipev2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017DBAB256BF9A2008B25EF /* Fipev2UITests.swift */; };
+		D017DBBE256BFCC8008B25EF /* Fipev2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017DBBD256BFCC8008B25EF /* Fipev2Tests.swift */; };
+		D017DBC9256BFECE008B25EF /* BrandTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017DBC8256BFECE008B25EF /* BrandTest.swift */; };
 		D0E93BC62567ED8500322962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E93BC52567ED8500322962 /* AppDelegate.swift */; };
 		D0E93BC82567ED8500322962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E93BC72567ED8500322962 /* SceneDelegate.swift */; };
 		D0E93BCA2567ED8500322962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E93BC92567ED8500322962 /* ViewController.swift */; };
@@ -26,10 +29,34 @@
 		D0E93BFF2568C00900322962 /* CarDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E93BFE2568C00900322962 /* CarDetailController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D017DBAE256BF9A2008B25EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E93BBA2567ED8500322962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E93BC12567ED8500322962;
+			remoteInfo = Fipev2;
+		};
+		D017DBC0256BFCC8008B25EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E93BBA2567ED8500322962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E93BC12567ED8500322962;
+			remoteInfo = Fipev2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1E215D561E491F796B0A8DBC /* Pods-Fipev2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipev2.release.xcconfig"; path = "Target Support Files/Pods-Fipev2/Pods-Fipev2.release.xcconfig"; sourceTree = "<group>"; };
 		49AF3B9490B63FF293EFD026 /* Pods-Fipev2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipev2.debug.xcconfig"; path = "Target Support Files/Pods-Fipev2/Pods-Fipev2.debug.xcconfig"; sourceTree = "<group>"; };
 		5B0F2D8993BF3E3A9327763D /* Pods_Fipev2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipev2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D017DBA9256BF9A2008B25EF /* Fipev2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fipev2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D017DBAB256BF9A2008B25EF /* Fipev2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipev2UITests.swift; sourceTree = "<group>"; };
+		D017DBAD256BF9A2008B25EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D017DBBB256BFCC8008B25EF /* Fipev2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fipev2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D017DBBD256BFCC8008B25EF /* Fipev2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipev2Tests.swift; sourceTree = "<group>"; };
+		D017DBBF256BFCC8008B25EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D017DBC8256BFECE008B25EF /* BrandTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTest.swift; sourceTree = "<group>"; };
 		D0E93BC22567ED8500322962 /* Fipev2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fipev2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E93BC52567ED8500322962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E93BC72567ED8500322962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +78,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D017DBA6256BF9A2008B25EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D017DBB8256BFCC8008B25EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0E93BBF2567ED8500322962 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,10 +112,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D017DBAA256BF9A2008B25EF /* Fipev2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D017DBAB256BF9A2008B25EF /* Fipev2UITests.swift */,
+				D017DBAD256BF9A2008B25EF /* Info.plist */,
+			);
+			path = Fipev2UITests;
+			sourceTree = "<group>";
+		};
+		D017DBBC256BFCC8008B25EF /* Fipev2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D017DBBD256BFCC8008B25EF /* Fipev2Tests.swift */,
+				D017DBBF256BFCC8008B25EF /* Info.plist */,
+				D017DBC8256BFECE008B25EF /* BrandTest.swift */,
+			);
+			path = Fipev2Tests;
+			sourceTree = "<group>";
+		};
 		D0E93BB92567ED8500322962 = {
 			isa = PBXGroup;
 			children = (
 				D0E93BC42567ED8500322962 /* Fipev2 */,
+				D017DBAA256BF9A2008B25EF /* Fipev2UITests */,
+				D017DBBC256BFCC8008B25EF /* Fipev2Tests */,
 				D0E93BC32567ED8500322962 /* Products */,
 				754F2B50066EB523265028EB /* Pods */,
 				E086BE1EAAEF5FE957E866A6 /* Frameworks */,
@@ -85,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				D0E93BC22567ED8500322962 /* Fipev2.app */,
+				D017DBA9256BF9A2008B25EF /* Fipev2UITests.xctest */,
+				D017DBBB256BFCC8008B25EF /* Fipev2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +212,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D017DBA8256BF9A2008B25EF /* Fipev2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D017DBB2256BF9A2008B25EF /* Build configuration list for PBXNativeTarget "Fipev2UITests" */;
+			buildPhases = (
+				D017DBA5256BF9A2008B25EF /* Sources */,
+				D017DBA6256BF9A2008B25EF /* Frameworks */,
+				D017DBA7256BF9A2008B25EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D017DBAF256BF9A2008B25EF /* PBXTargetDependency */,
+			);
+			name = Fipev2UITests;
+			productName = Fipev2UITests;
+			productReference = D017DBA9256BF9A2008B25EF /* Fipev2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D017DBBA256BFCC8008B25EF /* Fipev2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D017DBC2256BFCC9008B25EF /* Build configuration list for PBXNativeTarget "Fipev2Tests" */;
+			buildPhases = (
+				D017DBB7256BFCC8008B25EF /* Sources */,
+				D017DBB8256BFCC8008B25EF /* Frameworks */,
+				D017DBB9256BFCC8008B25EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D017DBC1256BFCC8008B25EF /* PBXTargetDependency */,
+			);
+			name = Fipev2Tests;
+			productName = Fipev2Tests;
+			productReference = D017DBBB256BFCC8008B25EF /* Fipev2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D0E93BC12567ED8500322962 /* Fipev2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E93BD62567ED8A00322962 /* Build configuration list for PBXNativeTarget "Fipev2" */;
@@ -176,6 +276,14 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					D017DBA8256BF9A2008B25EF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D0E93BC12567ED8500322962;
+					};
+					D017DBBA256BFCC8008B25EF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D0E93BC12567ED8500322962;
+					};
 					D0E93BC12567ED8500322962 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -195,11 +303,27 @@
 			projectRoot = "";
 			targets = (
 				D0E93BC12567ED8500322962 /* Fipev2 */,
+				D017DBA8256BF9A2008B25EF /* Fipev2UITests */,
+				D017DBBA256BFCC8008B25EF /* Fipev2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D017DBA7256BF9A2008B25EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D017DBB9256BFCC8008B25EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0E93BC02567ED8500322962 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +379,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D017DBA5256BF9A2008B25EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D017DBAC256BF9A2008B25EF /* Fipev2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D017DBB7256BFCC8008B25EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D017DBBE256BFCC8008B25EF /* Fipev2Tests.swift in Sources */,
+				D017DBC9256BFECE008B25EF /* BrandTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0E93BBE2567ED8500322962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +418,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D017DBAF256BF9A2008B25EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E93BC12567ED8500322962 /* Fipev2 */;
+			targetProxy = D017DBAE256BF9A2008B25EF /* PBXContainerItemProxy */;
+		};
+		D017DBC1256BFCC8008B25EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E93BC12567ED8500322962 /* Fipev2 */;
+			targetProxy = D017DBC0256BFCC8008B25EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D0E93BCB2567ED8500322962 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -297,6 +451,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D017DBB0256BF9A2008B25EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipev2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.Fipev2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fipev2;
+			};
+			name = Debug;
+		};
+		D017DBB1256BF9A2008B25EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipev2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.Fipev2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fipev2;
+			};
+			name = Release;
+		};
+		D017DBC3256BFCC9008B25EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipev2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.Fipev2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipev2.app/Fipev2";
+			};
+			name = Debug;
+		};
+		D017DBC4256BFCC9008B25EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipev2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.Fipev2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipev2.app/Fipev2";
+			};
+			name = Release;
+		};
 		D0E93BD42567ED8A00322962 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -454,6 +682,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D017DBB2256BF9A2008B25EF /* Build configuration list for PBXNativeTarget "Fipev2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D017DBB0256BF9A2008B25EF /* Debug */,
+				D017DBB1256BF9A2008B25EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D017DBC2256BFCC9008B25EF /* Build configuration list for PBXNativeTarget "Fipev2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D017DBC3256BFCC9008B25EF /* Debug */,
+				D017DBC4256BFCC9008B25EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D0E93BBD2567ED8500322962 /* Build configuration list for PBXProject "Fipev2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

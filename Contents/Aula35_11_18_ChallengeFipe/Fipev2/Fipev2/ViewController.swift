@@ -61,7 +61,6 @@ extension ViewController: UITableViewDataSource{
         let cell = UITableViewCell()
         
         cell.textLabel?.text = controller.getTitleForCell(at: indexPath.row)
-        
         return cell
     }
     

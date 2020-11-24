@@ -135,18 +135,18 @@ class ViewController: UIViewController {
 
     
     //  Changes the alpha of the labels according to the selected index
-    func segmentControl(){
+    func segmentControl(segmentControll: UISegmentedControl){
         indexChanged() // Checks SegmentControol's Index
  
-        if segmentControlInfo.selectedSegmentIndex == 0{
+        if segmentControll.selectedSegmentIndex == 0{
             labelOverView.alpha = 0
             labelTitleFilm.alpha = 1
         }
-        if segmentControlInfo.selectedSegmentIndex == 1{
+        if segmentControll.selectedSegmentIndex == 1{
             labelOverView.alpha = 1
             labelTitleFilm.alpha = 0
         }
-        if segmentControlInfo.selectedSegmentIndex == 2{
+        if segmentControll.selectedSegmentIndex == 2{
             labelOverView.alpha = 0
             labelTitleFilm.alpha = 0
         }
