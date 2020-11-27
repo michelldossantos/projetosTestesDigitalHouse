@@ -14,7 +14,9 @@ enum status: Int {
 }
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var searchItem: UISearchBar!
+    
     @IBOutlet weak var tableViewProducts: UITableView!
     
     @IBAction func actionCreateProduct(_ sender: UIButton) {
@@ -26,12 +28,14 @@ class ViewController: UIViewController {
     var arrayProductCompleted = [Product]()
     var arrayProductOpen = [Product]()
     var arrayProductsAll = [Product]()
+    var arrayFilter = [Product]()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewProducts.delegate = self
         tableViewProducts.dataSource = self
+        searchItem.delegate = self
         
         
         arrayProductsAll.append(Product(name: "Banana", checked: false))
@@ -44,7 +48,18 @@ class ViewController: UIViewController {
         arrayProductsAll.append(Product(name: "Feijão", checked: true))
         
     }
-
+    
+    
+    func arrayFilter(string: String){
+        arrayFilter = [Product]()
+        for item in arrayProductsAll{
+            if item.name.contains(string){
+                arrayFilter.append(item)
+            }
+        }
+        
+        print(arrayFilter)
+    }
 
 }
 
@@ -79,13 +94,11 @@ extension ViewController{
         
     }
     
-    // todo
+  
     func deleteItem(product: Product) {
         let indexItem = self.arrayProductsAll.firstIndex { (object) -> Bool in
             object.name == product.name
-            
-            
-            
+ 
            
     }
         arrayProductsAll.remove(at: indexItem!)
@@ -137,6 +150,13 @@ extension ViewController{
     }
     
     func createAlertOption(product:Product) {
+        
+        
+        var completOrOpen = "Marcar como Concluído"
+        if product.checked {
+            completOrOpen = "Marcar como Aberto"
+        }
+        
         let alertCreateProduct = UIAlertController(title: nil,
                                                  message: nil,
                                                  preferredStyle: .alert)
@@ -148,9 +168,12 @@ extension ViewController{
         }))
         
         alertCreateProduct.addAction(UIAlertAction(title: "Excluir", style: .destructive, handler: {  (action) in
+            self.deleteItem(product: product)
+            
         }))
         
-        alertCreateProduct.addAction(UIAlertAction(title: "Marcar como concluído", style: .default, handler: {  (action) in
+        alertCreateProduct.addAction(UIAlertAction(title: completOrOpen, style: .default, handler: {  (action) in
+            self.changeItem(item: product)
         }))
         
         
@@ -158,6 +181,21 @@ extension ViewController{
         
         self.present(alertCreateProduct, animated: true, completion: nil)
     }
+    
+    func changeItem(item: Product){
+        if item.checked{
+            item.checked = false
+        }else{
+            item.checked = true
+        }
+        
+        tableViewProducts.reloadData()
+    
+    }
+    
+    
+   
 }
+
 
 
