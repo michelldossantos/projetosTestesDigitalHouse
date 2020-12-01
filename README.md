@@ -31,6 +31,19 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 25](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula25_10_23_AutoLayout): AutoLayout
   - [Aula 26](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula26_10_26_Tabbar): TabBar
   - [Aula 27](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): UiAlertController
+  - [Aula 28](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Dojo IBuy*
+  - [Aula 29](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): CocoaPods*
+  - [Aula30](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): MAPKit*
+  - [Aula 31](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Apresentacão Sprint O PI*
+  - [Aula 32](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): NetWork*
+  - [Aula 33](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): API*
+  - [Aula 34](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): MVC*
+  - [Aula 35](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Desafio Fipe*
+  - [Aula 36](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Desenvolvimento PI*
+  - [Aula 37](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Test*
+  - [Aula 38](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Apresentação Sprint PI*
+  - [Aula 39](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): MVVM*
+  - [Aula 40](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Desafio Fipe com MVVM *
   
   
  
