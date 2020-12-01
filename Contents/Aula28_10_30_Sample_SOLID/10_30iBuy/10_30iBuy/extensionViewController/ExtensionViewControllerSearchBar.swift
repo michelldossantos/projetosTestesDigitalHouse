@@ -8,10 +8,10 @@
 import UIKit
 
 extension ViewController: UISearchBarDelegate{
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
-        
-        arrayFilter(string: searchText)
-        print(arrayFilter.count)
-    }
+//    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
+//        
+//        arrayFilter(string: searchText)
+//        print(arrayFilter.count)
+//    }
     
 }
