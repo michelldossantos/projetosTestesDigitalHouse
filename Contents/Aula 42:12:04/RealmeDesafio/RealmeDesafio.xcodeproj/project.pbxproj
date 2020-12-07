@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E3F4FBC8DBE2876D8E7B691 /* Pods_RealmeDesafio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC9CB83BB43B40D9C1A1D74 /* Pods_RealmeDesafio.framework */; };
+		D00DFB64257A683B00178983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00DFB63257A683B00178983 /* AppDelegate.swift */; };
+		D00DFB66257A683B00178983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00DFB65257A683B00178983 /* SceneDelegate.swift */; };
+		D00DFB68257A683B00178983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00DFB67257A683B00178983 /* ViewController.swift */; };
+		D00DFB6B257A683B00178983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00DFB69257A683B00178983 /* Main.storyboard */; };
+		D00DFB6D257A683F00178983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00DFB6C257A683F00178983 /* Assets.xcassets */; };
+		D00DFB70257A683F00178983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00DFB6E257A683F00178983 /* LaunchScreen.storyboard */; };
+		D00DFB80257A6A9B00178983 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00DFB7F257A6A9B00178983 /* Dog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B339CB743E73B5483BFF466 /* Pods-RealmeDesafio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmeDesafio.debug.xcconfig"; path = "Target Support Files/Pods-RealmeDesafio/Pods-RealmeDesafio.debug.xcconfig"; sourceTree = "<group>"; };
+		94F1A87752115DD031DC6082 /* Pods-RealmeDesafio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmeDesafio.release.xcconfig"; path = "Target Support Files/Pods-RealmeDesafio/Pods-RealmeDesafio.release.xcconfig"; sourceTree = "<group>"; };
+		CDC9CB83BB43B40D9C1A1D74 /* Pods_RealmeDesafio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmeDesafio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00DFB60257A683B00178983 /* RealmeDesafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmeDesafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00DFB63257A683B00178983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D00DFB65257A683B00178983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D00DFB67257A683B00178983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D00DFB6A257A683B00178983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00DFB6C257A683F00178983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00DFB6F257A683F00178983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00DFB71257A683F00178983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00DFB7F257A6A9B00178983 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00DFB5D257A683B00178983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3F4FBC8DBE2876D8E7B691 /* Pods_RealmeDesafio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2427343CF9368547568850 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B339CB743E73B5483BFF466 /* Pods-RealmeDesafio.debug.xcconfig */,
+				94F1A87752115DD031DC6082 /* Pods-RealmeDesafio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D00DFB57257A683B00178983 = {
+			isa = PBXGroup;
+			children = (
+				D00DFB62257A683B00178983 /* RealmeDesafio */,
+				D00DFB61257A683B00178983 /* Products */,
+				5E2427343CF9368547568850 /* Pods */,
+				DF5ED46A2F82D6C74219D637 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D00DFB61257A683B00178983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00DFB60257A683B00178983 /* RealmeDesafio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00DFB62257A683B00178983 /* RealmeDesafio */ = {
+			isa = PBXGroup;
+			children = (
+				D00DFB63257A683B00178983 /* AppDelegate.swift */,
+				D00DFB65257A683B00178983 /* SceneDelegate.swift */,
+				D00DFB67257A683B00178983 /* ViewController.swift */,
+				D00DFB69257A683B00178983 /* Main.storyboard */,
+				D00DFB6C257A683F00178983 /* Assets.xcassets */,
+				D00DFB6E257A683F00178983 /* LaunchScreen.storyboard */,
+				D00DFB71257A683F00178983 /* Info.plist */,
+				D00DFB7F257A6A9B00178983 /* Dog.swift */,
+			);
+			path = RealmeDesafio;
+			sourceTree = "<group>";
+		};
+		DF5ED46A2F82D6C74219D637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9CB83BB43B40D9C1A1D74 /* Pods_RealmeDesafio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00DFB5F257A683B00178983 /* RealmeDesafio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00DFB74257A683F00178983 /* Build configuration list for PBXNativeTarget "RealmeDesafio" */;
+			buildPhases = (
+				B8C60D05AF7ECDA9B6DEE090 /* [CP] Check Pods Manifest.lock */,
+				D00DFB5C257A683B00178983 /* Sources */,
+				D00DFB5D257A683B00178983 /* Frameworks */,
+				D00DFB5E257A683B00178983 /* Resources */,
+				2DF289F3F8F308385568473C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmeDesafio;
+			productName = RealmeDesafio;
+			productReference = D00DFB60257A683B00178983 /* RealmeDesafio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00DFB58257A683B00178983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D00DFB5F257A683B00178983 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = D00DFB5B257A683B00178983 /* Build configuration list for PBXProject "RealmeDesafio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00DFB57257A683B00178983;
+			productRefGroup = D00DFB61257A683B00178983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00DFB5F257A683B00178983 /* RealmeDesafio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00DFB5E257A683B00178983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00DFB70257A683F00178983 /* LaunchScreen.storyboard in Resources */,
+				D00DFB6D257A683F00178983 /* Assets.xcassets in Resources */,
+				D00DFB6B257A683B00178983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF289F3F8F308385568473C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmeDesafio/Pods-RealmeDesafio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmeDesafio/Pods-RealmeDesafio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmeDesafio/Pods-RealmeDesafio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C60D05AF7ECDA9B6DEE090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmeDesafio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00DFB5C257A683B00178983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00DFB68257A683B00178983 /* ViewController.swift in Sources */,
+				D00DFB64257A683B00178983 /* AppDelegate.swift in Sources */,
+				D00DFB80257A6A9B00178983 /* Dog.swift in Sources */,
+				D00DFB66257A683B00178983 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00DFB69257A683B00178983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00DFB6A257A683B00178983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00DFB6E257A683F00178983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00DFB6F257A683F00178983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00DFB72257A683F00178983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00DFB73257A683F00178983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00DFB75257A683F00178983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B339CB743E73B5483BFF466 /* Pods-RealmeDesafio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmeDesafio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.RealmeDesafio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00DFB76257A683F00178983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F1A87752115DD031DC6082 /* Pods-RealmeDesafio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RealmeDesafio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michelsantos.RealmeDesafio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00DFB5B257A683B00178983 /* Build configuration list for PBXProject "RealmeDesafio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00DFB72257A683F00178983 /* Debug */,
+				D00DFB73257A683F00178983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00DFB74257A683F00178983 /* Build configuration list for PBXNativeTarget "RealmeDesafio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00DFB75257A683F00178983 /* Debug */,
+				D00DFB76257A683F00178983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00DFB58257A683B00178983 /* Project object */;
+}
