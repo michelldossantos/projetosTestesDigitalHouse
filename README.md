@@ -44,6 +44,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 38](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Apresentação Sprint PI*
   - [Aula 39](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): MVVM*
   - [Aula 40](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Desafio Fipe com MVVM *
+  - [Aula 41](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Assistir Aprensentação PI JAVA*
+  - [Aula 42](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Aula para dúvidas do PI*
   
   
  
