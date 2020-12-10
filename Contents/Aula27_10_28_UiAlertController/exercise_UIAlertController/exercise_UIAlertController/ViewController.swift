@@ -129,6 +129,7 @@ extension ViewController{
                     self.nameProduct =  textfield.text!
                 }else{
                     self.quantity = textfield.text!
+                    
                 }
             }
             
