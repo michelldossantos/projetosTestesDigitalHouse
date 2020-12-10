@@ -43,8 +43,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 37](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Test*
   - [Aula 38](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Apresentação Sprint PI*
   - [Aula 39](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): MVVM*
-  - [Aula 40](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Desafio Fipe com MVVM *
-  - [Aula 41](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Assistir Aprensentação PI JAVA*
+  - [Aula 40](https://github.com/michelldossantos/FipeMVVM): Desafio Fipe com MVVM *
+  - [Aula 41](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Assistir Aprensentação PI*
   - [Aula 42](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): Aula para dúvidas do PI*
   
   
@@ -53,21 +53,8 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
 
 
 ### Aulas com desafios(precisa atualizar)
-  - AUla 04 Dojo 01 (Calculadora)
-  - Aula 06 [Desafio Modelagem Supermercado](https://github.com/michelldossantos/modelagemSuperMercado)
-  - Aula 07 [Desafio Veículos (Polimorfismo)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/testando/Aula%2007%2009:09/ExercicioVeiculos.playground)
-  - Aula 07 [Desafio Funcionário (Polimorfismo)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/testando/Aula%2007%2009:09/%20Exerc%C3%ADcioFuncionarios.playground)
-  - Aula 08 [Desafio Loja de Carro (Encapsulamento)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2008%2011:09/lojaCarro.playground)
-  - Aula 09 [Desafio Tela Login (Protocol e Delegate)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2009%2014:09/desafioLogin02)
-  - Aula 10 [Desafio App Lista de Compras](https://github.com/michelldossantos/app-ListaCompras)
-  - Aula 14 [Desafio TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2014%2025:09/refazExercicioTableView)
-  - Aula 15 [Desafio TableView Avançado](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula%2015%2028:09/desafioTableView)
-  - Aula 16 [Exercicios Collection View e TableView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula_16_30_09/exercicio)
-  - Aula 18 [Desafio IBOulet/IBAction](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula18_10_05/desafioOutletIBActionAvancado)
-  - Aula 19 [Desafio SegmentControl](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula19_10_07/desafioSegmentedControl)
-  - Aula 20 [Desafio Hotel - DataPicker](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula20_10_09/DesafioHotelG)
-  - Aula 21 [Desafio PickerView](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula21_10_14/desafioPickerView)
-  - Aula 24 [Exercício Frames](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula24_10_21/exercise_01)
+
+  - Aula 24 [FIPE (MVVM, Gitflow)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula24_10_21/exercise_01)
   
   
   
