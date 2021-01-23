@@ -1,0 +1,6 @@
+framework module Pods_paginas {
+  umbrella header "Pods-paginas-umbrella.h"
+
+  export *
+  module * { export * }
+}
