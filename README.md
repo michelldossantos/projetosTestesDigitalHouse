@@ -31,25 +31,29 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - [Aula 25](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula25_10_23_AutoLayout): AutoLayout
   - [Aula 26](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula26_10_26_Tabbar): TabBar
   - [Aula 27](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula27_10_28_UiAlertController): UiAlertController
-  - [Aula 28](): Dojo IBuy*
-  - [Aula 29](): CocoaPods*
-  - [Aula30](): MAPKit*
-  - [Aula 31]: Apresentacão Sprint 0 PI*
-  - [Aula 32](): NetWork*
-  - [Aula 33](): API*
-  - [Aula 34](): MVC*
-  - [Aula 35](): Desafio Fipe*
-  - [Aula 36](): Desenvolvimento PI*
-  - [Aula 37](): Test*
-  - [Aula 38]: Apresentação Sprint 1 PI*
-  - [Aula 39](): MVVM*
-  - [Aula 40](): Desafio Fipe com MVVM *
-  - [Aula 41]: Assistir Aprensentação PI*
-  - [Aula 42](): Aula para dúvidas do PI*
-  - [Aula 43]: Aula para dúvidas do PI 
-  - [Aula 44] Aula para dúvidas do PI e encerramento para as férias.
-  - [Aula 45]: Apresenteção Sprint 2 PI
-  - [Aula 46](): Paginação*
+  - [Aula 28](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula28_10_30_Sample_SOLID): Dojo IBuy*
+  - [Aula 29](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula29_11_04_cocoapods): CocoaPods
+  - [Aula30](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula30_11_06MapKit): MAPKit
+  - [Aula 31]: Apresentacão Sprint 0 PI
+  - [Aula 32](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula32_11_11_Network): NetWork*
+  - [Aula 33](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula33_11_13_ExercieApi/tvMazeAPIG): API
+  - [Aula 34](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula34_11_16_MVC): MVC
+  - [Aula 35](https://github.com/michelldossantos/FipeMVVM): Desafio Fipe
+  - Aula 36] Desenvolvimento PI
+  - [Aula 37](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula37_11_23_Test): Test
+  - [Aula 38]: Apresentação Sprint 1 PI
+  - [Aula 39](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula39_11_27_MVVM): MVVM
+  - [Aula 40](https://github.com/michelldossantos/FipeMVVM/blob/master/README.md): Desafio Fipe com MVVM 
+  - [Aula 41](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula41_12_02_BancoDados): Banco Dados
+  - Aula 42 Assistir Aprensentação PI turma Java
+  - Aula 43 Aula para dúvidas do PI 
+  - Aula 44 Aula para dúvidas do PI e encerramento para as férias.
+  - Aula 45 Apresenteção Sprint 2 PI
+  - Aula 46 Paginação*
+  - Aula 47 Aula destinada ao PI
+  - Aula 48 Aula destinada ao PI
+  - Aula 49 Fastlane 
+  - Aula 50 Apresenteção Sprint 3 PI
   
   
   
@@ -57,10 +61,13 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   
 
 
-### Aulas com desafios(precisa atualizar)
+### Aulas com desafios;
 
-  - Aula 24 [FIPE (MVVM, Gitflow)](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Aula24_10_21/exercise_01)
+  - Aula 24 [Frame](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula24_10_21_Frames/exercise_01)
+  ![Gravação de Tela 2020-10-22 às 22 12 35](https://user-images.githubusercontent.com/60993267/96987396-53300400-14f9-11eb-99d4-58169df8f5fd.gif)
   
+  - Aula 35 [FIPE (MVVM, Gitflow)](https://github.com/michelldossantos/FipeMVVM)
+  ![GIFFIPE](https://user-images.githubusercontent.com/60993267/101428796-39e3eb00-38e0-11eb-8fa9-eb2d27e7cd8a.gif)
   
   
 
