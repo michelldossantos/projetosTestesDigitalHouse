@@ -62,7 +62,10 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
 
 
 ### Aulas com desafios;
-
+  
+  - Aula 20 [DataPicker](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula20_10_09_DataPicker)
+  ![DataPicker](https://user-images.githubusercontent.com/60993267/105566460-21525780-5d0b-11eb-9177-1b5c6950ea5d.gif)
+  
   - Aula 24 [Frame](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula24_10_21_Frames/exercise_01)
   ![Gravação de Tela 2020-10-22 às 22 12 35](https://user-images.githubusercontent.com/60993267/96987396-53300400-14f9-11eb-99d4-58169df8f5fd.gif)
   
