@@ -11,21 +11,16 @@ import UIKit
 extension ViewController : UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let product:Product?
+
         let product: Product?
-//
+
         if indexPath.section == 0{
-            product = productViewModel.arrayProductOpen[indexPath.row]
-//            product = arrayProductOpen[indexPath.row]
+            product = arrayProductOpen[indexPath.row]
         }else{
-            product = productViewModel.arrayProductCompleted[indexPath.row]
-//            product = arrayProductCompleted [indexPath.row]
+            product = arrayProductCompleted [indexPath.row]
         }
-//
-//        alertCreateItem(product: product!)
-        
-        productViewModel.createAlertOption(product: product!)
-//        createAlertOption(product: product!)
+
+        createAlertOption(product: product!)
         
         
         
@@ -37,14 +32,11 @@ extension ViewController : UITableViewDelegate{
 
 extension ViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        productViewModel.filter()
-//        filter()
+        filter()
         if section == 1 {
-            return productViewModel.arrayProductCompleted.count
-//                arrayProductCompleted.count
+            return arrayProductCompleted.count
         }else{
-            return productViewModel.arrayProductOpen.count
-              
+            return arrayProductOpen.count
         }
         
     }
@@ -55,16 +47,12 @@ extension ViewController : UITableViewDataSource{
         
         
         if indexPath.section == 1 {
-            cell.setup(product: productViewModel.arrayProductCompleted[indexPath.row])
-//            cell.setup(product: arrayProductCompleted[indexPath.row])
-            
+            cell.setup(product: arrayProductCompleted[indexPath.row])
         }else{
-            cell.setup(product:  productViewModel.arrayProductOpen[indexPath.row])
-//            cell.setup(product:  arrayProductOpen[indexPath.row])
-          
+            cell.setup(product:  arrayProductOpen[indexPath.row])
         }
         
-//
+        
         return cell
     }
     
@@ -83,5 +71,12 @@ extension ViewController : UITableViewDataSource{
         }
     }
     
+    
+}
+
+extension ViewController: UISearchBarDelegate{
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
+        filterSearchBar(search: searchText)
+    }
     
 }
