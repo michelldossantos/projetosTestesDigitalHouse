@@ -49,7 +49,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 43 Aula para dúvidas do PI 
   - Aula 44 Aula para dúvidas do PI e encerramento para as férias.
   - Aula 45 Apresenteção Sprint 2 PI
-  - Aula 46 Paginação*
+  - [Aula 46](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula46_01_13_Paginacao): Paginação
   - Aula 47 Aula destinada ao PI
   - Aula 48 Aula destinada ao PI
   - Aula 49 Fastlane 
@@ -68,6 +68,9 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   
   - Aula 35 [FIPE (MVVM, Gitflow)](https://github.com/michelldossantos/FipeMVVM)
   ![GIFFIPE](https://user-images.githubusercontent.com/60993267/101428796-39e3eb00-38e0-11eb-8fa9-eb2d27e7cd8a.gif)
+  
+  - Aula 46 [Paginação](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula46_01_13_Paginacao)
+  ![paginacao](https://user-images.githubusercontent.com/60993267/105565819-860bb300-5d07-11eb-9634-b0406fde066a.gif)
   
   
 
