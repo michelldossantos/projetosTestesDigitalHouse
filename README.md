@@ -49,7 +49,7 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   - Aula 43 Aula para dúvidas do PI 
   - Aula 44 Aula para dúvidas do PI e encerramento para as férias.
   - Aula 45 Apresenteção Sprint 2 PI
-  - Aula 46 Paginação*
+  - [Aula 46](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula46_01_13_Paginacao): Paginação
   - Aula 47 Aula destinada ao PI
   - Aula 48 Aula destinada ao PI
   - Aula 49 Fastlane 
