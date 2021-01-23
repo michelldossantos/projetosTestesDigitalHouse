@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +17,9 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zdO-83-hFi">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.1764705882" green="0.023529411760000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.23921568630000001" green="0.074509803920000006" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.1764705882" green="0.023529411760000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="medicamentosTableViewCell" rowHeight="107" id="tzh-CU-QJw" customClass="medicamentosTableViewCell" customModule="paginas" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="107"/>
@@ -27,21 +28,32 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="107"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1p-10-xAV">
-                                                    <rect key="frame" x="45" y="43" width="332" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1p-10-xAV">
+                                                    <rect key="frame" x="41" y="22" width="332" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Código:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXI-Vv-90D">
+                                                    <rect key="frame" x="41" y="50" width="332" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="y1p-10-xAV" secondAttribute="trailing" constant="17" id="IQH-4f-x1e"/>
-                                                <constraint firstItem="y1p-10-xAV" firstAttribute="top" secondItem="uJP-GR-Byp" secondAttribute="topMargin" constant="32" id="Iji-6e-nva"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="y1p-10-xAV" secondAttribute="bottom" constant="32.5" id="NJG-4n-zPJ"/>
-                                                <constraint firstItem="y1p-10-xAV" firstAttribute="leading" secondItem="uJP-GR-Byp" secondAttribute="leadingMargin" constant="25" id="uUI-70-GoL"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="y1p-10-xAV" secondAttribute="trailing" constant="21" id="IQH-4f-x1e"/>
+                                                <constraint firstItem="y1p-10-xAV" firstAttribute="top" secondItem="uJP-GR-Byp" secondAttribute="topMargin" constant="11" id="Iji-6e-nva"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="pXI-Vv-90D" secondAttribute="trailing" constant="21" id="Vhj-g5-XKL"/>
+                                                <constraint firstItem="pXI-Vv-90D" firstAttribute="top" secondItem="y1p-10-xAV" secondAttribute="bottom" constant="7.5" id="ccG-r3-Yfz"/>
+                                                <constraint firstItem="pXI-Vv-90D" firstAttribute="leading" secondItem="uJP-GR-Byp" secondAttribute="leadingMargin" constant="21" id="pg4-Er-Ewd"/>
+                                                <constraint firstItem="y1p-10-xAV" firstAttribute="leading" secondItem="uJP-GR-Byp" secondAttribute="leadingMargin" constant="21" id="uUI-70-GoL"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="pXI-Vv-90D" secondAttribute="bottom" constant="25" id="zqK-hg-F17"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1764705882" green="0.023529411760000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <connections>
+                                            <outlet property="labelCode" destination="pXI-Vv-90D" id="Cc8-cm-6la"/>
                                             <outlet property="labelName" destination="y1p-10-xAV" id="I6o-vk-56K"/>
                                         </connections>
                                     </tableViewCell>
@@ -49,7 +61,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.1764705882" green="0.023529411760000001" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zdO-83-hFi" secondAttribute="bottom" id="IKH-Ci-5MT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zdO-83-hFi" secondAttribute="trailing" id="Z5K-Hp-PT5"/>
@@ -66,9 +78,4 @@
             <point key="canvasLocation" x="-30.434782608695656" y="62.946428571428569"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

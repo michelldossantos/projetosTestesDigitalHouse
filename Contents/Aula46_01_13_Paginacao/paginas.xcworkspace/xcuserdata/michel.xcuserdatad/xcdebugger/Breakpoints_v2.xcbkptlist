@@ -7,15 +7,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "95575281-E07D-4880-9482-EE868D99A606"
+            uuid = "BFBDBD91-4245-4BF9-BA32-0F53FAF32DAF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "paginas/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFBDBD91-4245-4BF9-BA32-0F53FAF32DAF - 4a9320b4510bc08c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "paginas.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "paginas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michel/Documents/Development/Digital%20House/iOS/projetosTestesDigitalHouse/Contents/Aula46_01_13_Paginacao/paginas/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "633">
+               </Location>
+               <Location
+                  uuid = "BFBDBD91-4245-4BF9-BA32-0F53FAF32DAF - ea168f19e984d30e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView) -&gt; () in paginas.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "paginas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michel/Documents/Development/Digital%20House/iOS/projetosTestesDigitalHouse/Contents/Aula46_01_13_Paginacao/paginas/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3055D53A-1C9D-41EA-8003-1B3CDEC07CB5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "paginas/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>

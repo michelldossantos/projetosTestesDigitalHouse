@@ -10,6 +10,7 @@ import UIKit
 class medicamentosTableViewCell: UITableViewCell {
 
     @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelCode: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,8 +24,10 @@ class medicamentosTableViewCell: UITableViewCell {
     
     
     func setup(medicamento: Item){
-        
-        labelName.text =  medicamento.id
+        let name = medicamento.name
+        let code = medicamento.id
+        labelName.text =  "Nome: \(name!)"
+        labelCode.text = "Código: \(code!)"
     }
 
 }
