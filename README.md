@@ -57,23 +57,30 @@ Repositório para os projetos e teste feitos no curso de desenvolvimento iOS da 
   
   
   
+  ## Aulas com desafios;
+  - Aula 20 [DataPicker](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula20_10_09_DataPicker) ---------------------------- Aula 24 [Frame](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula24_10_21_Frames/exercise_01) -------------------------Aula 28 [Dojo iBuy](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula28_10_30_Sample_SOLID) 
  
   
+<img src="https://user-images.githubusercontent.com/60993267/105566460-21525780-5d0b-11eb-9177-1b5c6950ea5d.gif" width="30%"></img> <img src="https://user-images.githubusercontent.com/60993267/105568866-8dd55280-5d1b-11eb-89cd-be9f9dfdc5ea.gif" width="30%"><img src="https://user-images.githubusercontent.com/60993267/105568457-236ee300-5d18-11eb-8611-05ead1e156d7.gif" width="30%"></img></img> 
+
+- Aula 35 [FIPE (MVVM, Gitflow)](https://github.com/michelldossantos/FipeMVVM)---------------- Aula 46 [Paginação](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula46_01_13_Paginacao)
 
 
-### Aulas com desafios;
+
+<img src="https://user-images.githubusercontent.com/60993267/101428796-39e3eb00-38e0-11eb-8fa9-eb2d27e7cd8a.gif" width="30%"></img> <img src="https://user-images.githubusercontent.com/60993267/105565819-860bb300-5d07-11eb-9634-b0406fde066a.gif" width="30%"></img>
+
+
   
-  - Aula 20 [DataPicker](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula20_10_09_DataPicker)
-  ![DataPicker](https://user-images.githubusercontent.com/60993267/105566460-21525780-5d0b-11eb-9177-1b5c6950ea5d.gif)
   
-  - Aula 24 [Frame](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula24_10_21_Frames/exercise_01)
-  ![Gravação de Tela 2020-10-22 às 22 12 35](https://user-images.githubusercontent.com/60993267/96987396-53300400-14f9-11eb-99d4-58169df8f5fd.gif)
+ 
   
-  - Aula 35 [FIPE (MVVM, Gitflow)](https://github.com/michelldossantos/FipeMVVM)
-  ![GIFFIPE](https://user-images.githubusercontent.com/60993267/101428796-39e3eb00-38e0-11eb-8fa9-eb2d27e7cd8a.gif)
   
-  - Aula 46 [Paginação](https://github.com/michelldossantos/projetosTestesDigitalHouse/tree/master/Contents/Aula46_01_13_Paginacao)
-  ![paginacao](https://user-images.githubusercontent.com/60993267/105565819-860bb300-5d07-11eb-9634-b0406fde066a.gif)
+ 
+  
+  
+  
+  
+ 
   
   
 
